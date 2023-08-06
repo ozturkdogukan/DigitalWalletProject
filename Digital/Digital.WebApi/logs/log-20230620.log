@@ -1,0 +1,774 @@
+2023-06-20 15:12:29.535 [INF] Application is starting...
+2023-06-20 15:13:29.181 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 15:13:29.986 [INF] -------------Request-Begin------------
+2023-06-20 15:13:29.988 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "mustafa@gmail.com",
+  "password": "string"
+}
+2023-06-20 15:13:29.990 [INF] 
+
+2023-06-20 15:13:29.991 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-20T15:28:29.9765366+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIzIiwiRmlyc3ROYW1lIjoiTXVzdGFmYSIsIkxhc3ROYW1lIjoic3RyaW5nIiwiUm9sZSI6Ik1lbWJlciIsIlN0YXR1cyI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJNZW1iZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiTXVzdGFmYSBzdHJpbmciLCJleHAiOjE2ODcyNjQxMDksImlzcyI6IlNpbUFwaSIsImF1ZCI6IlNpbUFwaSJ9.36ZewGqecDWtSqkq7-SANNsNm6qkocRn8pbZfmbPeMw","email":"mustafa@gmail.com"}}
+2023-06-20 15:13:29.991 [INF] -------------Request-End------------
+2023-06-20 15:14:20.355 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 15:15:19.012 [INF] Application is starting...
+2023-06-20 15:15:56.001 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 15:15:56.094 [INF] -------------Request-Begin------------
+2023-06-20 15:15:56.095 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+Request Body: {
+  "name": "Ahmet"
+  "lastName": "Mehmet",
+  "email": "mustafa58@gmail.com",
+  "password": "string"
+}
+2023-06-20 15:15:56.095 [INF] 
+
+2023-06-20 15:15:56.096 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-06-20 15:15:56.096 [INF] -------------Request-End------------
+2023-06-20 15:16:09.207 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 15:16:09.821 [INF] -------------Request-Begin------------
+2023-06-20 15:16:09.822 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "mustafa@gmail.com",
+  "password": "string"
+}
+2023-06-20 15:16:09.823 [INF] 
+
+2023-06-20 15:16:09.824 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-20T15:31:09.8127996+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIzIiwiRmlyc3ROYW1lIjoiTXVzdGFmYSIsIkxhc3ROYW1lIjoic3RyaW5nIiwiUm9sZSI6Ik1lbWJlciIsIlN0YXR1cyI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJNZW1iZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiTXVzdGFmYSBzdHJpbmciLCJleHAiOjE2ODcyNjQyNjksImlzcyI6IlNpbUFwaSIsImF1ZCI6IlNpbUFwaSJ9.VQBHaPIMaVXmVOnWZdmodh0t99WHkDx79b4PU8tVi2E","email":"mustafa@gmail.com"}}
+2023-06-20 15:16:09.824 [INF] -------------Request-End------------
+2023-06-20 15:16:36.502 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 15:16:36.564 [INF] -------------Request-Begin------------
+2023-06-20 15:16:36.565 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+Request Body: {
+  "name": "Ahmet"
+  "lastName": "Mehmet",
+  "email": "mustafa58@gmail.com",
+  "password": "string"
+}
+2023-06-20 15:16:36.566 [INF] 
+
+2023-06-20 15:16:36.566 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-3c6779be5f1189f6c6f6a17da1be054d-c8081574f1ca5081-00","errors":{"$":["'\"' is invalid after a value. Expected either ',', '}', or ']'. Path: $ | LineNumber: 2 | BytePositionInLine: 2."],"request":["The request field is required."]}
+2023-06-20 15:16:36.567 [INF] -------------Request-End------------
+2023-06-20 15:17:18.832 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 15:17:18.840 [INF] -------------Request-Begin------------
+2023-06-20 15:17:18.841 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+Request Body: {
+  "name": "Ahmet"
+  "lastName": "Mehmet",
+  "email": "mustafa58@gmail.com",
+  "password": "string"
+}
+2023-06-20 15:17:18.843 [INF] 
+
+2023-06-20 15:17:18.844 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-22f643cc408229cda3bdd88d72e76079-5a05a2d956def34f-00","errors":{"$":["'\"' is invalid after a value. Expected either ',', '}', or ']'. Path: $ | LineNumber: 2 | BytePositionInLine: 2."],"request":["The request field is required."]}
+2023-06-20 15:17:18.845 [INF] -------------Request-End------------
+2023-06-20 15:17:38.790 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 15:17:38.792 [INF] -------------Request-Begin------------
+2023-06-20 15:17:38.793 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+Request Body: {
+  "name": "Ahmet"
+  "lastName": "Mehmet",
+  "email": "mustafa58@gmail.com",
+  "password": "string"
+}
+2023-06-20 15:17:38.795 [INF] 
+
+2023-06-20 15:17:38.796 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-fda2004e0966439b84bf57f32c9609c1-5c05c9a8b290bbad-00","errors":{"$":["'\"' is invalid after a value. Expected either ',', '}', or ']'. Path: $ | LineNumber: 2 | BytePositionInLine: 2."],"request":["The request field is required."]}
+2023-06-20 15:17:38.796 [INF] -------------Request-End------------
+2023-06-20 15:17:39.532 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 15:17:39.535 [INF] -------------Request-Begin------------
+2023-06-20 15:17:39.536 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+Request Body: {
+  "name": "Ahmet"
+  "lastName": "Mehmet",
+  "email": "mustafa58@gmail.com",
+  "password": "string"
+}
+2023-06-20 15:17:39.536 [INF] 
+
+2023-06-20 15:17:39.537 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-ac7a567305499fb1f3165ec521a8d212-66b5a00dee7963bf-00","errors":{"$":["'\"' is invalid after a value. Expected either ',', '}', or ']'. Path: $ | LineNumber: 2 | BytePositionInLine: 2."],"request":["The request field is required."]}
+2023-06-20 15:17:39.538 [INF] -------------Request-End------------
+2023-06-20 15:17:51.720 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 15:18:04.992 [INF] -------------Request-Begin------------
+2023-06-20 15:18:04.992 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+Request Body: {
+  "name": "Ahmet",
+  "lastName": "Mehmet",
+  "email": "mustafa58@gmail.com",
+  "password": "string"
+}
+2023-06-20 15:18:04.993 [INF] 
+
+2023-06-20 15:18:04.994 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 15:18:04.994 [INF] -------------Request-End------------
+2023-06-20 15:21:37.368 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 15:21:37.371 [INF] -------------Request-Begin------------
+2023-06-20 15:21:37.372 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+Request Body: 
+2023-06-20 15:21:37.372 [INF] 
+
+2023-06-20 15:21:37.373 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-06-20 15:21:37.373 [INF] -------------Request-End------------
+2023-06-20 15:22:10.103 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 15:22:10.119 [INF] -------------Request-Begin------------
+2023-06-20 15:22:10.119 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "mustafa58@gmail.com",
+  "password": "string"
+}
+2023-06-20 15:22:10.120 [INF] 
+
+2023-06-20 15:22:10.122 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-20T15:37:10.1181946+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIzIiwiRmlyc3ROYW1lIjoiQWhtZXQiLCJMYXN0TmFtZSI6Ik1laG1ldCIsIlJvbGUiOiJNZW1iZXIiLCJTdGF0dXMiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiTWVtYmVyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkFobWV0IE1laG1ldCIsImV4cCI6MTY4NzI2NDYzMCwiaXNzIjoiU2ltQXBpIiwiYXVkIjoiU2ltQXBpIn0.o-pnzQpCk_WuDZl1DtK66MC4bh_Tk1moZe7ycuqJeRs","email":"mustafa58@gmail.com"}}
+2023-06-20 15:22:10.123 [INF] -------------Request-End------------
+2023-06-20 15:22:34.531 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 15:22:34.553 [INF] -------------Request-Begin------------
+2023-06-20 15:22:34.554 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+Request Body: 
+2023-06-20 15:22:34.555 [INF] 
+
+2023-06-20 15:22:34.557 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"digitalWallet":25.00,"id":3}}
+2023-06-20 15:22:34.558 [INF] -------------Request-End------------
+2023-06-20 15:25:10.839 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 15:25:10.850 [INF] -------------Request-Begin------------
+2023-06-20 15:25:10.850 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string@gmail.com",
+  "password": "string"
+}
+2023-06-20 15:25:10.851 [INF] 
+
+2023-06-20 15:25:10.853 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-20T15:40:10.8501075+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiRmlyc3ROYW1lIjoiRG_En3VrYW4iLCJMYXN0TmFtZSI6InN0cmluZyIsIlJvbGUiOiJBZG1pbiIsIlN0YXR1cyI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJEb8SfdWthbiBzdHJpbmciLCJleHAiOjE2ODcyNjQ4MTAsImlzcyI6IlNpbUFwaSIsImF1ZCI6IlNpbUFwaSJ9.F7JCuEIYY2fNShGwca7wqopjo3aa1maE2ubJmXlNr5g","email":"string@gmail.com"}}
+2023-06-20 15:25:10.854 [INF] -------------Request-End------------
+2023-06-20 15:28:25.593 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 15:28:25.609 [INF] -------------Request-Begin------------
+2023-06-20 15:28:25.609 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string@gmail.com",
+  "password": "string"
+}
+2023-06-20 15:28:25.610 [INF] 
+
+2023-06-20 15:28:25.612 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-20T15:43:25.6083539+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiRmlyc3ROYW1lIjoiRG_En3VrYW4iLCJMYXN0TmFtZSI6InN0cmluZyIsIlJvbGUiOiJBZG1pbiIsIlN0YXR1cyI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJEb8SfdWthbiBzdHJpbmciLCJleHAiOjE2ODcyNjUwMDUsImlzcyI6IlNpbUFwaSIsImF1ZCI6IlNpbUFwaSJ9.TNAadO53Dew2rcves_Z61_ZA2_DQVQtifTZxkRM8gfs","email":"string@gmail.com"}}
+2023-06-20 15:28:25.613 [INF] -------------Request-End------------
+2023-06-20 15:29:20.859 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 15:29:20.883 [INF] -------------Request-Begin------------
+2023-06-20 15:29:20.884 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Admin/UpdateUser 
+QueryString: ?userId=3 
+Request Body: {
+  "name": "string",
+  "lastName": "string",
+  "email": "ahmet96@gmail.com",
+  "password": "string",
+  "status": 1,
+  "digitalWallet": 0
+}
+2023-06-20 15:29:20.885 [INF] 
+
+2023-06-20 15:29:20.885 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Admin/UpdateUser 
+QueryString: ?userId=3 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record Not Found."}
+2023-06-20 15:29:20.886 [INF] -------------Request-End------------
+2023-06-20 15:29:54.291 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 15:30:10.933 [INF] -------------Request-Begin------------
+2023-06-20 15:30:10.933 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Admin/UpdateUser 
+QueryString: ?userId=3 
+Request Body: {
+  "name": "string",
+  "lastName": "string",
+  "email": "ahmet96@gmail.com",
+  "password": "string",
+  "status": 1,
+  "digitalWallet": 0
+}
+2023-06-20 15:30:10.934 [INF] 
+
+2023-06-20 15:30:10.935 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Admin/UpdateUser 
+QueryString: ?userId=3 
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 15:30:10.935 [INF] -------------Request-End------------
+2023-06-20 19:33:42.400 [INF] Application is starting...
+2023-06-20 19:36:38.137 [INF] Application is starting...
+2023-06-20 19:37:06.151 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:37:06.838 [INF] -------------Request-Begin------------
+2023-06-20 19:37:06.839 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+Request Body: {
+  "emailTo": "reatline@gmail.com",
+  "subject": "string",
+  "body": "string"
+}
+2023-06-20 19:37:06.840 [INF] 
+
+2023-06-20 19:37:06.840 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 19:37:06.841 [INF] -------------Request-End------------
+2023-06-20 19:37:37.567 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:38:28.464 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:38:28.485 [INF] -------------Request-Begin------------
+2023-06-20 19:38:28.485 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+Request Body: {
+  "emailTo": "reatline@gmail.com",
+  "subject": "string",
+  "body": "string"
+}
+2023-06-20 19:38:28.486 [INF] 
+
+2023-06-20 19:38:28.487 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 19:38:28.487 [INF] -------------Request-End------------
+2023-06-20 19:38:49.446 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:39:20.592 [ERR] NotificationService
+2023-06-20 19:39:20.593 [ERR] Email send failed for $reatline@gmail.com
+2023-06-20 19:39:30.485 [INF] Application is starting...
+2023-06-20 19:39:47.863 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:39:48.180 [INF] -------------Request-Begin------------
+2023-06-20 19:39:48.181 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+Request Body: {
+  "emailTo": "reatline@gmail.com",
+  "subject": "string",
+  "body": "string"
+}
+2023-06-20 19:39:48.182 [INF] 
+
+2023-06-20 19:39:48.182 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 19:39:48.183 [INF] -------------Request-End------------
+2023-06-20 19:39:52.923 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:40:29.738 [INF] Application is starting...
+2023-06-20 19:40:40.463 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:41:10.340 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:41:10.524 [INF] -------------Request-Begin------------
+2023-06-20 19:41:10.525 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+Request Body: {
+  "emailTo": "reatline@gmail.com",
+  "subject": "string",
+  "body": "string"
+}
+2023-06-20 19:41:10.526 [INF] 
+
+2023-06-20 19:41:10.527 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 19:41:10.527 [INF] -------------Request-End------------
+2023-06-20 19:41:20.333 [INF] Application is starting...
+2023-06-20 19:41:32.601 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:44:19.049 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:44:19.210 [INF] -------------Request-Begin------------
+2023-06-20 19:44:19.211 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+Request Body: {
+  "emailTo": "reatline@gmail.com",
+  "subject": "Deneme",
+  "body": "Deneme mesajı 58 65 Merhaba"
+}
+2023-06-20 19:44:19.211 [INF] 
+
+2023-06-20 19:44:19.212 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 19:44:19.212 [INF] -------------Request-End------------
+2023-06-20 19:44:56.465 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:50:39.918 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:51:39.535 [INF] -------------Request-Begin------------
+2023-06-20 19:51:39.536 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+Request Body: {
+  "emailTo": "reatline@gmail.com",
+  "subject": "Deneme",
+  "body": "Deneme mesajı 58 65 Merhaba"
+}
+2023-06-20 19:51:39.536 [INF] 
+
+2023-06-20 19:51:39.537 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 19:51:39.538 [INF] -------------Request-End------------
+2023-06-20 19:52:34.329 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:52:39.936 [INF] -------------Request-Begin------------
+2023-06-20 19:52:39.937 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ConsumeMail 
+QueryString:  
+Request Body: 
+2023-06-20 19:52:39.938 [INF] 
+
+2023-06-20 19:52:39.938 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ConsumeMail 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 19:52:39.939 [INF] -------------Request-End------------
+2023-06-20 19:54:34.371 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:54:35.383 [INF] -------------Request-Begin------------
+2023-06-20 19:54:35.384 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+Request Body: {
+  "emailTo": "reatline@gmail.com",
+  "subject": "string",
+  "body": "string"
+}
+2023-06-20 19:54:35.385 [INF] 
+
+2023-06-20 19:54:35.385 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 19:54:35.386 [INF] -------------Request-End------------
+2023-06-20 19:54:39.608 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:55:22.925 [INF] Application is starting...
+2023-06-20 19:55:34.488 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:55:48.482 [INF] -------------Request-Begin------------
+2023-06-20 19:55:48.482 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ConsumeMail 
+QueryString:  
+Request Body: 
+2023-06-20 19:55:48.483 [INF] 
+
+2023-06-20 19:55:48.484 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ConsumeMail 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 19:55:48.484 [INF] -------------Request-End------------
+2023-06-20 19:56:23.838 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:56:23.882 [INF] -------------Request-Begin------------
+2023-06-20 19:56:23.883 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+Request Body: {
+  "emailTo": "reatline@gmail.com"
+  "subject": "string",
+  "body": "string"
+}
+2023-06-20 19:56:23.883 [INF] 
+
+2023-06-20 19:56:23.884 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-2044cd91ab5a0d6d8d3166ecb203f738-0fb7edd605c74f9c-00","errors":{"$":["'\"' is invalid after a value. Expected either ',', '}', or ']'. Path: $ | LineNumber: 2 | BytePositionInLine: 2."],"mailRequest":["The mailRequest field is required."]}
+2023-06-20 19:56:23.884 [INF] -------------Request-End------------
+2023-06-20 19:56:29.813 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 19:56:31.085 [INF] -------------Request-Begin------------
+2023-06-20 19:56:31.086 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+Request Body: {
+  "emailTo": "reatline@gmail.com",
+  "subject": "string",
+  "body": "string"
+}
+2023-06-20 19:56:31.086 [INF] 
+
+2023-06-20 19:56:31.087 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 19:56:31.087 [INF] -------------Request-End------------
+2023-06-20 19:56:34.970 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 20:02:13.084 [INF] Application is starting...
+2023-06-20 20:02:32.019 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 20:02:34.395 [INF] -------------Request-Begin------------
+2023-06-20 20:02:34.396 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+Request Body: {
+  "emailTo": "reatline@gmail.com",
+  "subject": "string",
+  "body": "string"
+}
+2023-06-20 20:02:34.397 [INF] 
+
+2023-06-20 20:02:34.398 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 20:02:34.398 [INF] -------------Request-End------------
+2023-06-20 20:02:39.715 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 20:12:24.156 [INF] Application is starting...
+2023-06-20 20:12:43.632 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 20:12:44.926 [INF] -------------Request-Begin------------
+2023-06-20 20:12:44.927 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+Request Body: {
+  "emailTo": "reatline@gmail.com",
+  "subject": "string",
+  "body": "string"
+}
+2023-06-20 20:12:44.928 [INF] 
+
+2023-06-20 20:12:44.928 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 20:12:44.929 [INF] -------------Request-End------------
+2023-06-20 20:12:53.451 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 20:13:54.439 [ERR] NotificationService
+2023-06-20 20:13:54.440 [ERR] Email send failed for reatline@gmail.com
+2023-06-20 20:13:54.443 [INF] -------------Request-Begin------------
+2023-06-20 20:13:54.443 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ConsumeMail 
+QueryString:  
+Request Body: 
+2023-06-20 20:13:54.444 [INF] 
+
+2023-06-20 20:13:54.444 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ConsumeMail 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 20:13:54.445 [INF] -------------Request-End------------
+2023-06-20 20:14:00.759 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 20:14:02.491 [INF] -------------Request-Begin------------
+2023-06-20 20:14:02.492 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+Request Body: {
+  "emailTo": "reatline@gmail.com",
+  "subject": "string",
+  "body": "string"
+}
+2023-06-20 20:14:02.493 [INF] 
+
+2023-06-20 20:14:02.494 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 20:14:02.494 [INF] -------------Request-End------------
+2023-06-20 20:14:05.944 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 20:17:24.449 [ERR] NotificationService
+2023-06-20 20:17:24.455 [ERR] Email send failed for reatline@gmail.com
+2023-06-20 20:17:24.475 [INF] -------------Request-Begin------------
+2023-06-20 20:17:24.476 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ConsumeMail 
+QueryString:  
+Request Body: 
+2023-06-20 20:17:24.477 [INF] 
+
+2023-06-20 20:17:24.478 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ConsumeMail 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 20:17:24.478 [INF] -------------Request-End------------
+2023-06-20 20:19:43.501 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 20:19:44.642 [INF] -------------Request-Begin------------
+2023-06-20 20:19:44.643 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+Request Body: {
+  "emailTo": "reatline@gmail.com",
+  "subject": "string",
+  "body": "string"
+}
+2023-06-20 20:19:44.643 [INF] 
+
+2023-06-20 20:19:44.644 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ProcuderMail 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 20:19:44.645 [INF] -------------Request-End------------
+2023-06-20 20:19:51.657 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 20:20:29.751 [INF] -------------Request-Begin------------
+2023-06-20 20:20:29.751 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ConsumeMail 
+QueryString:  
+Request Body: 
+2023-06-20 20:20:29.752 [INF] 
+
+2023-06-20 20:20:29.753 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Notification/ConsumeMail 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-20 20:20:29.753 [INF] -------------Request-End------------
+2023-06-20 21:02:21.048 [INF] Application is starting...
+2023-06-20 21:05:19.091 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 21:08:01.795 [INF] Application is starting...
+2023-06-20 21:08:08.541 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 21:12:04.503 [INF] Application is starting...
+2023-06-20 21:12:13.521 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 23:49:35.487 [INF] Application is starting...
+2023-06-20 23:49:46.181 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 23:50:01.578 [INF] -------------Request-Begin------------
+2023-06-20 23:50:01.579 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Cache 
+QueryString:  
+Request Body: 
+2023-06-20 23:50:01.579 [INF] 
+
+2023-06-20 23:50:01.580 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Cache 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":false}
+2023-06-20 23:50:01.581 [INF] -------------Request-End------------
+2023-06-20 23:55:50.965 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-20 23:55:51.011 [INF] -------------Request-Begin------------
+2023-06-20 23:55:51.011 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Cache 
+QueryString:  
+Request Body: 
+2023-06-20 23:55:51.012 [INF] 
+
+2023-06-20 23:55:51.013 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Cache 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"digitalWallet":0.00,"id":1},{"digitalWallet":0.00,"id":2},{"digitalWallet":0.00,"id":3}]}
+2023-06-20 23:55:51.014 [INF] -------------Request-End------------

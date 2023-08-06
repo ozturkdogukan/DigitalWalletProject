@@ -1,0 +1,202 @@
+2023-06-14 00:05:52.231 [INF] Application is starting...
+2023-06-14 00:06:01.960 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-14 00:06:02.680 [INF] -------------Request-Begin------------
+2023-06-14 00:06:02.681 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=1 
+Request Body: 
+2023-06-14 00:06:02.682 [INF] 
+
+2023-06-14 00:06:02.683 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"name":"string","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":1,"category":{"name":"string","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-13T19:57:53.7068138","createdBy":null,"updatedAt":null,"updatedBy":null}}]}
+2023-06-14 00:06:02.684 [INF] -------------Request-End------------
+2023-06-14 00:06:19.718 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-14 00:06:19.757 [INF] -------------Request-Begin------------
+2023-06-14 00:06:19.757 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=2 
+Request Body: 
+2023-06-14 00:06:19.758 [INF] 
+
+2023-06-14 00:06:19.761 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=2 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"name":"string","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":{"name":"string","url":"string","tags":"string","products":[null],"id":2,"createdAt":"2023-06-13T19:58:01.8156667","createdBy":null,"updatedAt":null,"updatedBy":null}}]}
+2023-06-14 00:06:19.762 [INF] -------------Request-End------------
+2023-06-14 00:07:16.646 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-14 00:07:18.051 [INF] -------------Request-Begin------------
+2023-06-14 00:07:18.052 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-14 00:07:18.053 [INF] 
+
+2023-06-14 00:07:18.055 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"string","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":1,"category":{"name":"string","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-13T19:57:53.7068138","createdBy":null,"updatedAt":null,"updatedBy":null}}]},{"name":"string","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":{"name":"string","url":"string","tags":"string","products":[null],"id":2,"createdAt":"2023-06-13T19:58:01.8156667","createdBy":null,"updatedAt":null,"updatedBy":null}}]}]}
+2023-06-14 00:07:18.056 [INF] -------------Request-End------------
+2023-06-14 00:09:12.362 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-14 00:09:14.819 [INF] -------------Request-Begin------------
+2023-06-14 00:09:14.819 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 0,
+  "pointEarningPercentage": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    2
+  ]
+}
+2023-06-14 00:09:14.820 [INF] 
+
+2023-06-14 00:09:14.823 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-14 00:09:14.824 [INF] -------------Request-End------------
+2023-06-14 00:09:20.828 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-14 00:09:21.980 [INF] -------------Request-Begin------------
+2023-06-14 00:09:21.980 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 0,
+  "pointEarningPercentage": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    2
+  ]
+}
+2023-06-14 00:09:21.981 [INF] 
+
+2023-06-14 00:09:21.982 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-14 00:09:21.983 [INF] -------------Request-End------------
+2023-06-14 00:09:27.091 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-14 00:09:27.097 [INF] -------------Request-Begin------------
+2023-06-14 00:09:27.097 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=2 
+Request Body: 
+2023-06-14 00:09:27.098 [INF] 
+
+2023-06-14 00:09:27.099 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=2 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"name":"string","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":{"name":"string","url":"string","tags":"string","products":[null,{"productId":2,"product":null,"categoryId":2,"category":null},{"productId":3,"product":null,"categoryId":2,"category":null}],"id":2,"createdAt":"2023-06-13T19:58:01.8156667","createdBy":null,"updatedAt":null,"updatedBy":null},{"productId":2,"product":null,"categoryId":2,"category":{"name":"string","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":null},null,{"productId":3,"product":null,"categoryId":2,"category":null}],"id":2,"createdAt":"2023-06-13T19:58:01.8156667","createdBy":null,"updatedAt":null,"updatedBy":null},{"productId":3,"product":null,"categoryId":2,"category":{"name":"string","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":null},{"productId":2,"product":null,"categoryId":2,"category":null},null],"id":2,"createdAt":"2023-06-13T19:58:01.8156667","createdBy":null,"updatedAt":null,"updatedBy":null}]}
+2023-06-14 00:09:27.100 [INF] -------------Request-End------------
+2023-06-14 00:12:58.783 [INF] Application is starting...
+2023-06-14 00:13:35.087 [INF] Application is starting...
+2023-06-14 00:14:00.440 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-14 00:14:01.059 [INF] -------------Request-Begin------------
+2023-06-14 00:14:01.059 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=2 
+Request Body: {
+  "name": "kral58",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-14 00:14:01.063 [INF] 
+
+2023-06-14 00:14:01.063 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=2 
+StatusCode: 200 
+Response Body: {"success":false,"message":"The instance of entity type 'Category' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values."}
+2023-06-14 00:14:01.064 [INF] -------------Request-End------------
+2023-06-14 00:14:22.441 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-14 00:21:22.182 [INF] Application is starting...
+2023-06-14 00:24:40.021 [INF] Application is starting...
+2023-06-14 00:24:58.150 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-14 00:25:00.654 [INF] -------------Request-Begin------------
+2023-06-14 00:25:00.655 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=2 
+Request Body: {
+  "name": "kral58",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-14 00:25:00.657 [INF] 
+
+2023-06-14 00:25:00.657 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=2 
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-14 00:25:00.658 [INF] -------------Request-End------------
+2023-06-14 00:25:34.354 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-14 00:25:36.163 [INF] -------------Request-Begin------------
+2023-06-14 00:25:36.164 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=2 
+Request Body: {
+  "name": "kral18",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-14 00:25:36.165 [INF] 
+
+2023-06-14 00:25:36.167 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=2 
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-14 00:25:36.168 [INF] -------------Request-End------------

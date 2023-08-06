@@ -1,0 +1,12 @@
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Base\bin\Debug\net6.0\Digital.Base.deps.json
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Base\bin\Debug\net6.0\Digital.Base.dll
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Base\bin\Debug\net6.0\Digital.Base.pdb
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Base\obj\Debug\net6.0\Digital.Base.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Base\obj\Debug\net6.0\Digital.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Base\obj\Debug\net6.0\Digital.Base.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Base\obj\Debug\net6.0\Digital.Base.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Base\obj\Debug\net6.0\Digital.Base.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Base\obj\Debug\net6.0\Digital.Base.dll
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Base\obj\Debug\net6.0\refint\Digital.Base.dll
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Base\obj\Debug\net6.0\Digital.Base.pdb
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Base\obj\Debug\net6.0\ref\Digital.Base.dll

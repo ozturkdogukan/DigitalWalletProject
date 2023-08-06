@@ -1,0 +1,264 @@
+2023-06-11 10:10:24.151 [INF] Application is starting...
+2023-06-11 10:10:41.570 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 10:10:43.289 [INF] -------------Request-Begin------------
+2023-06-11 10:10:43.290 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-11 10:10:43.291 [INF] 
+
+2023-06-11 10:10:43.291 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Email or password is incorrect.","response":null}
+2023-06-11 10:10:43.292 [INF] -------------Request-End------------
+2023-06-11 13:32:23.704 [INF] Application is starting...
+2023-06-11 13:37:27.987 [INF] Application is starting...
+2023-06-11 13:37:40.126 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 13:37:41.508 [INF] -------------Request-Begin------------
+2023-06-11 13:37:41.508 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: 
+2023-06-11 13:37:41.509 [INF] 
+
+2023-06-11 13:37:41.509 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-06-11 13:37:41.510 [INF] -------------Request-End------------
+2023-06-11 13:38:11.611 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 13:38:19.112 [INF] -------------Request-Begin------------
+2023-06-11 13:38:19.115 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "reatline@gmail.com",
+  "password": "string"
+}
+2023-06-11 13:38:19.115 [INF] 
+
+2023-06-11 13:38:19.116 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-11T13:43:15.7309279+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoiRG_En3VrYW4iLCJMYXN0TmFtZSI6IsOWenTDvHJrIiwiUm9sZSI6Ik1lbWJlciIsIlN0YXR1cyI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJNZW1iZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiRG_En3VrYW4gw5Z6dMO8cmsiLCJleHAiOjE2ODY0ODAxOTUsImlzcyI6IlNpbUFwaSIsImF1ZCI6IlNpbUFwaSJ9.Qrh9cdwGY4dv2y6yF0VMgM6vXXQqxbbDjX1yzoYqmlI","email":"reatline@gmail.com"}}
+2023-06-11 13:38:19.116 [INF] -------------Request-End------------
+2023-06-11 13:38:36.217 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 13:38:49.241 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 13:39:04.708 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 13:39:27.299 [INF] Application is starting...
+2023-06-11 13:39:53.397 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 13:39:53.481 [INF] -------------Request-Begin------------
+2023-06-11 13:39:53.482 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-11 13:39:53.483 [INF] 
+
+2023-06-11 13:39:53.483 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-06-11 13:39:53.484 [INF] -------------Request-End------------
+2023-06-11 13:40:01.916 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 13:40:58.658 [INF] Application is starting...
+2023-06-11 13:41:18.331 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 13:41:43.073 [INF] -------------Request-Begin------------
+2023-06-11 13:41:43.074 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-11 13:41:43.077 [INF] 
+
+2023-06-11 13:41:43.078 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-06-11 13:41:43.079 [INF] -------------Request-End------------
+2023-06-11 13:44:29.592 [INF] Application is starting...
+2023-06-11 13:45:05.329 [INF] Application is starting...
+2023-06-11 13:45:25.492 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 13:45:25.619 [INF] -------------Request-Begin------------
+2023-06-11 13:45:25.620 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "reatline@gmail.com"
+  "password": "string"
+}
+2023-06-11 13:45:25.623 [INF] 
+
+2023-06-11 13:45:25.623 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-17a5157b4168b4f55ea7efc4544707cd-67a083a9168e9e40-00","errors":{"$":["'\"' is invalid after a value. Expected either ',', '}', or ']'. Path: $ | LineNumber: 2 | BytePositionInLine: 2."],"request":["The request field is required."]}
+2023-06-11 13:45:25.624 [INF] -------------Request-End------------
+2023-06-11 13:45:43.327 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 13:45:45.232 [INF] -------------Request-Begin------------
+2023-06-11 13:45:45.233 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "reatline@gmail.com",
+  "password": "string"
+}
+2023-06-11 13:45:45.234 [INF] 
+
+2023-06-11 13:45:45.237 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-11T13:50:45.2287246+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoiRG_En3VrYW4iLCJMYXN0TmFtZSI6IsOWenTDvHJrIiwiUm9sZSI6Ik1lbWJlciIsIlN0YXR1cyI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJNZW1iZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiRG_En3VrYW4gw5Z6dMO8cmsiLCJleHAiOjE2ODY0ODA2NDUsImlzcyI6IlNpbUFwaSIsImF1ZCI6IlNpbUFwaSJ9.hwsG14iB2PboLJujeOSvxcoTH8o4xuqVc44mkHf8zSY","email":"reatline@gmail.com"}}
+2023-06-11 13:45:45.237 [INF] -------------Request-End------------
+2023-06-11 13:46:20.903 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 13:46:21.206 [INF] -------------Request-Begin------------
+2023-06-11 13:46:21.207 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Elektronik",
+  "url": "elektronik",
+  "tags": "elektronik cihazlar, elektronik aletler"
+}
+2023-06-11 13:46:21.210 [INF] 
+
+2023-06-11 13:46:21.211 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Internal Server Error"}
+2023-06-11 13:46:21.211 [INF] -------------Request-End------------
+2023-06-11 13:46:33.359 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 13:51:50.374 [INF] Application is starting...
+2023-06-11 13:52:28.691 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 13:52:30.952 [INF] -------------Request-Begin------------
+2023-06-11 13:52:30.953 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "lastName": "string",
+  "email": "string",
+  "password": "string"
+}
+2023-06-11 13:52:30.956 [INF] 
+
+2023-06-11 13:52:30.957 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-11 13:52:30.957 [INF] -------------Request-End------------
+2023-06-11 13:52:42.138 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 13:52:43.099 [INF] -------------Request-Begin------------
+2023-06-11 13:52:43.100 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-11 13:52:43.101 [INF] 
+
+2023-06-11 13:52:43.102 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-11T13:57:43.0956564+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2NDgxMDYyLCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.Cy-MLclV0GzBCprKgVLGComSi4rwaBN-q3U9u6kTkhg","email":"string"}}
+2023-06-11 13:52:43.102 [INF] -------------Request-End------------
+2023-06-11 13:53:15.254 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 13:53:20.652 [INF] -------------Request-Begin------------
+2023-06-11 13:53:20.653 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-11 13:53:20.654 [INF] 
+
+2023-06-11 13:53:20.654 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Internal Server Error"}
+2023-06-11 13:53:20.655 [INF] -------------Request-End------------
+2023-06-11 13:53:30.617 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 13:55:22.234 [INF] Application is starting...
+2023-06-11 13:55:46.298 [INF] Application is starting...
+2023-06-11 13:55:56.219 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-11 13:55:57.842 [INF] -------------Request-Begin------------
+2023-06-11 13:55:57.843 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-11 13:55:57.844 [INF] 
+
+2023-06-11 13:55:57.844 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-11 13:55:57.845 [INF] -------------Request-End------------

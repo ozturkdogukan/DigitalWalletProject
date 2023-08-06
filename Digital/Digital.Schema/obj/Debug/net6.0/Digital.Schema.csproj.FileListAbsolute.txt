@@ -1,0 +1,17 @@
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Schema\bin\Debug\net6.0\Digital.Schema.deps.json
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Schema\bin\Debug\net6.0\Digital.Schema.dll
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Schema\bin\Debug\net6.0\Digital.Schema.pdb
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Schema\bin\Debug\net6.0\Digital.Base.dll
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Schema\bin\Debug\net6.0\Digital.Data.dll
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Schema\bin\Debug\net6.0\Digital.Data.pdb
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Schema\bin\Debug\net6.0\Digital.Base.pdb
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Schema\obj\Debug\net6.0\Digital.Schema.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Schema\obj\Debug\net6.0\Digital.Schema.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Schema\obj\Debug\net6.0\Digital.Schema.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Schema\obj\Debug\net6.0\Digital.Schema.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Schema\obj\Debug\net6.0\Digital.Schema.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Schema\obj\Debug\net6.0\Digital.Schema.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Schema\obj\Debug\net6.0\Digital.Schema.dll
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Schema\obj\Debug\net6.0\refint\Digital.Schema.dll
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Schema\obj\Debug\net6.0\Digital.Schema.pdb
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Schema\obj\Debug\net6.0\ref\Digital.Schema.dll

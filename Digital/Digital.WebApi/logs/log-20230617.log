@@ -1,0 +1,18 @@
+2023-06-17 00:06:45.550 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-17 00:06:45.553 [INF] -------------Request-Begin------------
+2023-06-17 00:06:45.554 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /favicon.ico 
+QueryString:  
+Request Body: 
+2023-06-17 00:06:45.555 [INF] 
+
+2023-06-17 00:06:45.555 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /favicon.ico 
+QueryString:  
+StatusCode: 404 
+Response Body: 
+2023-06-17 00:06:45.556 [INF] -------------Request-End------------

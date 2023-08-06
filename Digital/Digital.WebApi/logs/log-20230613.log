@@ -1,0 +1,263 @@
+2023-06-13 22:31:12.446 [INF] Application is starting...
+2023-06-13 22:32:05.497 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:32:07.658 [INF] -------------Request-Begin------------
+2023-06-13 22:32:07.659 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-13 22:32:07.660 [INF] 
+
+2023-06-13 22:32:07.660 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Email or password is incorrect.","response":null}
+2023-06-13 22:32:07.661 [INF] -------------Request-End------------
+2023-06-13 22:35:35.993 [INF] Application is starting...
+2023-06-13 22:36:04.707 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:36:05.136 [INF] -------------Request-Begin------------
+2023-06-13 22:36:05.136 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-13 22:36:05.140 [INF] 
+
+2023-06-13 22:36:05.141 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Error mapping types.\r\n\r\nMapping types:\r\nList`1 -> List`1\r\nSystem.Collections.Generic.List`1[[Digital.Data.Model.Category, Digital.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Digital.Schema.Dto.Category.CategoryResponse, Digital.Schema, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]","response":null}
+2023-06-13 22:36:05.141 [INF] -------------Request-End------------
+2023-06-13 22:36:30.071 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:36:30.315 [INF] -------------Request-Begin------------
+2023-06-13 22:36:30.315 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-13 22:36:30.317 [INF] 
+
+2023-06-13 22:36:30.319 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-13 22:36:30.320 [INF] -------------Request-End------------
+2023-06-13 22:36:35.615 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:36:35.641 [INF] -------------Request-Begin------------
+2023-06-13 22:36:35.642 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-13 22:36:35.642 [INF] 
+
+2023-06-13 22:36:35.643 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Error mapping types.\r\n\r\nMapping types:\r\nList`1 -> List`1\r\nSystem.Collections.Generic.List`1[[Digital.Data.Model.Category, Digital.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Digital.Schema.Dto.Category.CategoryResponse, Digital.Schema, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]","response":null}
+2023-06-13 22:36:35.643 [INF] -------------Request-End------------
+2023-06-13 22:36:48.474 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:37:24.893 [INF] Application is starting...
+2023-06-13 22:37:32.807 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:39:07.878 [INF] Application is starting...
+2023-06-13 22:39:14.829 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:39:17.675 [INF] -------------Request-Begin------------
+2023-06-13 22:39:17.676 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-13 22:39:17.677 [INF] 
+
+2023-06-13 22:39:17.678 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{},{}]}
+2023-06-13 22:39:17.679 [INF] -------------Request-End------------
+2023-06-13 22:39:33.104 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:40:59.606 [INF] Application is starting...
+2023-06-13 22:41:18.117 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:41:33.863 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:42:21.190 [INF] Application is starting...
+2023-06-13 22:42:33.082 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:43:16.409 [INF] Application is starting...
+2023-06-13 22:43:29.273 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:48:23.059 [INF] Application is starting...
+2023-06-13 22:49:08.754 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:55:13.988 [INF] Application is starting...
+2023-06-13 22:55:29.344 [INF] Application is starting...
+2023-06-13 22:55:48.653 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:56:18.670 [INF] -------------Request-Begin------------
+2023-06-13 22:56:18.671 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 1,
+  "pointEarningPercentage": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    1,2
+  ]
+}
+2023-06-13 22:56:18.673 [INF] 
+
+2023-06-13 22:56:18.674 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Internal Server Error"}
+2023-06-13 22:56:18.674 [INF] -------------Request-End------------
+2023-06-13 22:56:25.562 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:56:56.439 [INF] Application is starting...
+2023-06-13 22:57:53.574 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:57:56.558 [INF] -------------Request-Begin------------
+2023-06-13 22:57:56.559 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-13 22:57:56.560 [INF] 
+
+2023-06-13 22:57:56.560 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-13 22:57:56.561 [INF] -------------Request-End------------
+2023-06-13 22:58:01.813 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:58:02.820 [INF] -------------Request-Begin------------
+2023-06-13 22:58:02.820 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-13 22:58:02.821 [INF] 
+
+2023-06-13 22:58:02.822 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-13 22:58:02.823 [INF] -------------Request-End------------
+2023-06-13 22:58:16.854 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 22:58:25.600 [INF] -------------Request-Begin------------
+2023-06-13 22:58:25.601 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 0,
+  "pointEarningPercentage": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    1,2
+  ]
+}
+2023-06-13 22:58:25.602 [INF] 
+
+2023-06-13 22:58:25.603 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-13 22:58:25.603 [INF] -------------Request-End------------
+2023-06-13 23:35:18.611 [INF] Application is starting...
+2023-06-13 23:35:39.721 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 23:36:41.411 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 23:40:03.708 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 23:47:43.671 [INF] Application is starting...
+2023-06-13 23:47:50.589 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 23:49:33.706 [INF] Application is starting...
+2023-06-13 23:49:41.574 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 23:49:43.483 [INF] -------------Request-Begin------------
+2023-06-13 23:49:43.484 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-13 23:49:43.485 [INF] 
+
+2023-06-13 23:49:43.485 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"string","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":1,"category":{"name":"string","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-13T19:57:53.7068138","createdBy":null,"updatedAt":null,"updatedBy":null}}],"id":1},{"name":"string","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":{"name":"string","url":"string","tags":"string","products":[null],"id":2,"createdAt":"2023-06-13T19:58:01.8156667","createdBy":null,"updatedAt":null,"updatedBy":null}}],"id":2}]}
+2023-06-13 23:49:43.486 [INF] -------------Request-End------------
+2023-06-13 23:50:57.827 [INF] Application is starting...
+2023-06-13 23:51:13.032 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-13 23:51:17.086 [INF] -------------Request-Begin------------
+2023-06-13 23:51:17.087 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-13 23:51:17.088 [INF] 
+
+2023-06-13 23:51:17.088 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"string","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":1,"category":{"name":"string","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-13T19:57:53.7068138","createdBy":null,"updatedAt":null,"updatedBy":null}}]},{"name":"string","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":{"name":"string","url":"string","tags":"string","products":[null],"id":2,"createdAt":"2023-06-13T19:58:01.8156667","createdBy":null,"updatedAt":null,"updatedBy":null}}]}]}
+2023-06-13 23:51:17.089 [INF] -------------Request-End------------

@@ -1,0 +1,1164 @@
+2023-06-15 00:01:17.875 [INF] Application is starting...
+2023-06-15 00:01:43.229 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:01:46.262 [INF] -------------Request-Begin------------
+2023-06-15 00:01:46.263 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=3 
+Request Body: {
+  "name": "string",
+  "url": "kralbenim",
+  "tags": "string"
+}
+2023-06-15 00:01:46.264 [INF] 
+
+2023-06-15 00:01:46.265 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=3 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Internal Server Error"}
+2023-06-15 00:01:46.266 [INF] -------------Request-End------------
+2023-06-15 00:01:58.730 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:02:00.235 [INF] -------------Request-Begin------------
+2023-06-15 00:02:00.236 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-15 00:02:00.237 [INF] 
+
+2023-06-15 00:02:00.239 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"string","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":1,"category":{"name":"string","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-13T19:57:53.7068138","createdBy":null,"updatedAt":null,"updatedBy":null}}]},{"name":"kral18","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":{"name":"kral18","url":"string","tags":"string","products":[null,{"productId":2,"product":null,"categoryId":2,"category":null},{"productId":3,"product":null,"categoryId":2,"category":null}],"id":2,"createdAt":null,"createdBy":null,"updatedAt":"2023-06-13T21:25:35.3432744","updatedBy":null},{"productId":2,"product":null,"categoryId":2,"category":{"name":"kral18","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":null},null,{"productId":3,"product":null,"categoryId":2,"category":null}],"id":2,"createdAt":null,"createdBy":null,"updatedAt":"2023-06-13T21:25:35.3432744","updatedBy":null},{"productId":3,"product":null,"categoryId":2,"category":{"name":"kral18","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":null},{"productId":2,"product":null,"categoryId":2,"category":null},null],"id":2,"createdAt":null,"createdBy":null,"updatedAt":"2023-06-13T21:25:35.3432744","updatedBy":null}]}]}
+2023-06-15 00:02:00.241 [INF] -------------Request-End------------
+2023-06-15 00:02:35.163 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:02:36.927 [INF] -------------Request-Begin------------
+2023-06-15 00:02:36.927 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=2 
+Request Body: {
+  "name": "string",
+  "url": "kralbenim",
+  "tags": "string"
+}
+2023-06-15 00:02:36.929 [INF] 
+
+2023-06-15 00:02:36.931 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=2 
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 00:02:36.932 [INF] -------------Request-End------------
+2023-06-15 00:02:46.007 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:03:51.901 [INF] Application is starting...
+2023-06-15 00:04:00.411 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:04:03.515 [INF] -------------Request-Begin------------
+2023-06-15 00:04:03.517 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-15 00:04:03.518 [INF] 
+
+2023-06-15 00:04:03.518 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"string","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":1,"category":{"name":"string","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-13T19:57:53.7068138","createdBy":null,"updatedAt":null,"updatedBy":null}}]},{"name":"string","url":"kralbenim","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":{"name":"string","url":"kralbenim","tags":"string","products":[null,{"productId":2,"product":null,"categoryId":2,"category":null},{"productId":3,"product":null,"categoryId":2,"category":null}],"id":2,"createdAt":null,"createdBy":null,"updatedAt":"2023-06-14T21:02:36.3399088","updatedBy":null},{"productId":2,"product":null,"categoryId":2,"category":{"name":"string","url":"kralbenim","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":null},null,{"productId":3,"product":null,"categoryId":2,"category":null}],"id":2,"createdAt":null,"createdBy":null,"updatedAt":"2023-06-14T21:02:36.3399088","updatedBy":null},{"productId":3,"product":null,"categoryId":2,"category":{"name":"string","url":"kralbenim","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":null},{"productId":2,"product":null,"categoryId":2,"category":null},null],"id":2,"createdAt":null,"createdBy":null,"updatedAt":"2023-06-14T21:02:36.3399088","updatedBy":null}]}]}
+2023-06-15 00:04:03.520 [INF] -------------Request-End------------
+2023-06-15 00:04:22.564 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:04:24.173 [INF] -------------Request-Begin------------
+2023-06-15 00:04:24.174 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=3 
+Request Body: {
+  "name": "string",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-15 00:04:24.175 [INF] 
+
+2023-06-15 00:04:24.177 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=3 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found"}
+2023-06-15 00:04:24.178 [INF] -------------Request-End------------
+2023-06-15 00:05:05.597 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:05:05.633 [INF] -------------Request-Begin------------
+2023-06-15 00:05:05.634 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=2 
+Request Body: 
+2023-06-15 00:05:05.634 [INF] 
+
+2023-06-15 00:05:05.635 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=2 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"name":"string","url":"kralbenim","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":{"name":"string","url":"kralbenim","tags":"string","products":[null,{"productId":2,"product":null,"categoryId":2,"category":null},{"productId":3,"product":null,"categoryId":2,"category":null}],"id":2,"createdAt":null,"createdBy":null,"updatedAt":"2023-06-14T21:02:36.3399088","updatedBy":null},{"productId":2,"product":null,"categoryId":2,"category":{"name":"string","url":"kralbenim","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":null},null,{"productId":3,"product":null,"categoryId":2,"category":null}],"id":2,"createdAt":null,"createdBy":null,"updatedAt":"2023-06-14T21:02:36.3399088","updatedBy":null},{"productId":3,"product":null,"categoryId":2,"category":{"name":"string","url":"kralbenim","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":null},{"productId":2,"product":null,"categoryId":2,"category":null},null],"id":2,"createdAt":null,"createdBy":null,"updatedAt":"2023-06-14T21:02:36.3399088","updatedBy":null}]}
+2023-06-15 00:05:05.637 [INF] -------------Request-End------------
+2023-06-15 00:15:06.408 [INF] Application is starting...
+2023-06-15 00:15:27.263 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:15:30.371 [INF] -------------Request-Begin------------
+2023-06-15 00:15:30.373 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-15 00:15:30.376 [INF] 
+
+2023-06-15 00:15:30.376 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"string","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":1,"category":{"name":"string","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-13T19:57:53.7068138","createdBy":null,"updatedAt":null,"updatedBy":null}}]},{"name":"string","url":"kralbenim","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":{"name":"string","url":"kralbenim","tags":"string","products":[null,{"productId":2,"product":null,"categoryId":2,"category":null},{"productId":3,"product":null,"categoryId":2,"category":null}],"id":2,"createdAt":null,"createdBy":null,"updatedAt":"2023-06-14T21:02:36.3399088","updatedBy":null},{"productId":2,"product":null,"categoryId":2,"category":{"name":"string","url":"kralbenim","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":null},null,{"productId":3,"product":null,"categoryId":2,"category":null}],"id":2,"createdAt":null,"createdBy":null,"updatedAt":"2023-06-14T21:02:36.3399088","updatedBy":null},{"productId":3,"product":null,"categoryId":2,"category":{"name":"string","url":"kralbenim","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":null},{"productId":2,"product":null,"categoryId":2,"category":null},null],"id":2,"createdAt":null,"createdBy":null,"updatedAt":"2023-06-14T21:02:36.3399088","updatedBy":null}]}]}
+2023-06-15 00:15:30.378 [INF] -------------Request-End------------
+2023-06-15 00:15:59.786 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:16:01.607 [INF] -------------Request-Begin------------
+2023-06-15 00:16:01.607 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString:  
+Request Body: {
+  "name": "kral",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 0,
+  "pointEarningPercentage": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    1
+  ]
+}
+2023-06-15 00:16:01.608 [INF] 
+
+2023-06-15 00:16:01.609 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 00:16:01.611 [INF] -------------Request-End------------
+2023-06-15 00:16:33.181 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:16:34.218 [INF] -------------Request-Begin------------
+2023-06-15 00:16:34.218 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-15 00:16:34.219 [INF] 
+
+2023-06-15 00:16:34.221 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"string","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":1,"category":{"name":"string","url":"string","tags":"string","products":[null,{"productId":4,"product":null,"categoryId":1,"category":null}],"id":1,"createdAt":"2023-06-13T19:57:53.7068138","createdBy":null,"updatedAt":null,"updatedBy":null},{"productId":4,"product":null,"categoryId":1,"category":{"name":"string","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":1,"category":null},null],"id":1,"createdAt":"2023-06-13T19:57:53.7068138","createdBy":null,"updatedAt":null,"updatedBy":null}]},{"name":"string","url":"kralbenim","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":{"name":"string","url":"kralbenim","tags":"string","products":[null,{"productId":2,"product":null,"categoryId":2,"category":null},{"productId":3,"product":null,"categoryId":2,"category":null}],"id":2,"createdAt":null,"createdBy":null,"updatedAt":"2023-06-14T21:02:36.3399088","updatedBy":null},{"productId":2,"product":null,"categoryId":2,"category":{"name":"string","url":"kralbenim","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":null},null,{"productId":3,"product":null,"categoryId":2,"category":null}],"id":2,"createdAt":null,"createdBy":null,"updatedAt":"2023-06-14T21:02:36.3399088","updatedBy":null},{"productId":3,"product":null,"categoryId":2,"category":{"name":"string","url":"kralbenim","tags":"string","products":[{"productId":1,"product":null,"categoryId":2,"category":null},{"productId":2,"product":null,"categoryId":2,"category":null},null],"id":2,"createdAt":null,"createdBy":null,"updatedAt":"2023-06-14T21:02:36.3399088","updatedBy":null}]}]}
+2023-06-15 00:16:34.223 [INF] -------------Request-End------------
+2023-06-15 00:21:51.602 [INF] Application is starting...
+2023-06-15 00:22:19.722 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:22:21.944 [INF] -------------Request-Begin------------
+2023-06-15 00:22:21.944 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 0,
+  "pointEarningPercentage": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    1
+  ]
+}
+2023-06-15 00:22:21.947 [INF] 
+
+2023-06-15 00:22:21.948 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 00:22:21.948 [INF] -------------Request-End------------
+2023-06-15 00:23:03.190 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:23:21.797 [INF] -------------Request-Begin------------
+2023-06-15 00:23:21.798 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 0,
+  "pointEarningPercentage": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    1
+  ]
+}
+2023-06-15 00:23:21.799 [INF] 
+
+2023-06-15 00:23:21.799 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 00:23:21.800 [INF] -------------Request-End------------
+2023-06-15 00:24:00.980 [INF] Application is starting...
+2023-06-15 00:24:25.029 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:24:29.775 [INF] -------------Request-Begin------------
+2023-06-15 00:24:29.776 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString: ?id=1 
+Request Body: {
+  "name": "string",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 0,
+  "pointEarningPercentage": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    1
+  ]
+}
+2023-06-15 00:24:29.778 [INF] 
+
+2023-06-15 00:24:29.779 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString: ?id=1 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Internal Server Error"}
+2023-06-15 00:24:29.779 [INF] -------------Request-End------------
+2023-06-15 00:24:36.518 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:25:51.664 [INF] Application is starting...
+2023-06-15 00:26:07.058 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:26:19.618 [INF] -------------Request-Begin------------
+2023-06-15 00:26:19.619 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString: ?id=1 
+Request Body: {
+  "name": "string",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 0,
+  "pointEarningPercentage": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    1
+  ]
+}
+2023-06-15 00:26:19.620 [INF] 
+
+2023-06-15 00:26:19.621 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString: ?id=1 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Internal Server Error"}
+2023-06-15 00:26:19.621 [INF] -------------Request-End------------
+2023-06-15 00:26:41.483 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:33:19.391 [INF] Application is starting...
+2023-06-15 00:33:46.192 [INF] Application is starting...
+2023-06-15 00:33:58.685 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:34:02.474 [INF] -------------Request-Begin------------
+2023-06-15 00:34:02.475 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-15 00:34:02.476 [INF] 
+
+2023-06-15 00:34:02.476 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-06-15 00:34:02.477 [INF] -------------Request-End------------
+2023-06-15 00:34:53.053 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:34:54.485 [INF] -------------Request-Begin------------
+2023-06-15 00:34:54.486 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Elektronik",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-15 00:34:54.487 [INF] 
+
+2023-06-15 00:34:54.491 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 00:34:54.492 [INF] -------------Request-End------------
+2023-06-15 00:35:10.260 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:35:11.477 [INF] -------------Request-Begin------------
+2023-06-15 00:35:11.477 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Yemek",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-15 00:35:11.478 [INF] 
+
+2023-06-15 00:35:11.479 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 00:35:11.479 [INF] -------------Request-End------------
+2023-06-15 00:35:45.186 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:35:47.438 [INF] -------------Request-Begin------------
+2023-06-15 00:35:47.439 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "Bilgisayar",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 0,
+  "pointEarningPercentage": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    1,2
+  ]
+}
+2023-06-15 00:35:47.439 [INF] 
+
+2023-06-15 00:35:47.442 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 00:35:47.442 [INF] -------------Request-End------------
+2023-06-15 00:37:19.461 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:47:04.821 [INF] Application is starting...
+2023-06-15 00:47:22.932 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:47:24.590 [INF] -------------Request-Begin------------
+2023-06-15 00:47:24.591 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Elektronik",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-15 00:47:24.592 [INF] 
+
+2023-06-15 00:47:24.592 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 00:47:24.593 [INF] -------------Request-End------------
+2023-06-15 00:47:33.860 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:47:35.168 [INF] -------------Request-Begin------------
+2023-06-15 00:47:35.168 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Bahçe",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-15 00:47:35.170 [INF] 
+
+2023-06-15 00:47:35.170 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 00:47:35.171 [INF] -------------Request-End------------
+2023-06-15 00:47:43.271 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:47:44.532 [INF] -------------Request-Begin------------
+2023-06-15 00:47:44.533 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Yemek",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-15 00:47:44.534 [INF] 
+
+2023-06-15 00:47:44.537 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 00:47:44.537 [INF] -------------Request-End------------
+2023-06-15 00:48:06.712 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:48:09.682 [INF] -------------Request-Begin------------
+2023-06-15 00:48:09.683 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "Deneme1",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 0,
+  "pointEarningPercentage": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    1,2,3
+  ]
+}
+2023-06-15 00:48:09.683 [INF] 
+
+2023-06-15 00:48:09.684 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 00:48:09.685 [INF] -------------Request-End------------
+2023-06-15 00:48:18.122 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:48:19.599 [INF] -------------Request-Begin------------
+2023-06-15 00:48:19.599 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAll 
+QueryString:  
+Request Body: 
+2023-06-15 00:48:19.600 [INF] 
+
+2023-06-15 00:48:19.601 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"Deneme1","features":"string","description":"string","isActive":true,"stock":0,"pointEarningPercentage":0.00,"maxPointAmount":0.00,"categories":[{"productId":1,"product":{"name":"Deneme1","features":"string","description":"string","isActive":true,"stock":0,"pointEarningPercentage":0.00,"maxPointAmount":0.00,"categories":[null,{"productId":1,"product":null,"categoryId":2,"category":null},{"productId":1,"product":null,"categoryId":3,"category":null}],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":1,"category":null},{"productId":1,"product":{"name":"Deneme1","features":"string","description":"string","isActive":true,"stock":0,"pointEarningPercentage":0.00,"maxPointAmount":0.00,"categories":[{"productId":1,"product":null,"categoryId":1,"category":null},null,{"productId":1,"product":null,"categoryId":3,"category":null}],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":2,"category":null},{"productId":1,"product":{"name":"Deneme1","features":"string","description":"string","isActive":true,"stock":0,"pointEarningPercentage":0.00,"maxPointAmount":0.00,"categories":[{"productId":1,"product":null,"categoryId":1,"category":null},{"productId":1,"product":null,"categoryId":2,"category":null},null],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":3,"category":null}]}]}
+2023-06-15 00:48:19.602 [INF] -------------Request-End------------
+2023-06-15 00:52:54.166 [INF] Application is starting...
+2023-06-15 00:53:12.794 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:53:21.176 [INF] -------------Request-Begin------------
+2023-06-15 00:53:21.177 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString: ?id=1 
+Request Body: {
+  "name": "Deneme1",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 0,
+  "pointEarningPercentage": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    1
+  ]
+}
+2023-06-15 00:53:21.178 [INF] 
+
+2023-06-15 00:53:21.179 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString: ?id=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 00:53:21.179 [INF] -------------Request-End------------
+2023-06-15 00:54:05.634 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:54:07.111 [INF] -------------Request-Begin------------
+2023-06-15 00:54:07.112 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAll 
+QueryString:  
+Request Body: 
+2023-06-15 00:54:07.113 [INF] 
+
+2023-06-15 00:54:07.115 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"Deneme1","features":"string","description":"string","isActive":true,"stock":0,"pointEarningPercentage":0.00,"maxPointAmount":0.00,"categories":[{"productId":1,"product":{"name":"Deneme1","features":"string","description":"string","isActive":true,"stock":0,"pointEarningPercentage":0.00,"maxPointAmount":0.00,"categories":[null],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":1,"category":null}]}]}
+2023-06-15 00:54:07.116 [INF] -------------Request-End------------
+2023-06-15 00:54:58.316 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:54:58.336 [INF] -------------Request-Begin------------
+2023-06-15 00:54:58.336 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString: ?id=4 
+Request Body: {
+  "name": "Deneme1",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 0,
+  "pointEarningPercentage": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    1
+  ]
+}
+2023-06-15 00:54:58.337 [INF] 
+
+2023-06-15 00:54:58.338 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString: ?id=4 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Product not found"}
+2023-06-15 00:54:58.338 [INF] -------------Request-End------------
+2023-06-15 00:54:59.464 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:54:59.468 [INF] -------------Request-Begin------------
+2023-06-15 00:54:59.469 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString: ?id=4 
+Request Body: {
+  "name": "Deneme1",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 0,
+  "pointEarningPercentage": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    1
+  ]
+}
+2023-06-15 00:54:59.470 [INF] 
+
+2023-06-15 00:54:59.470 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString: ?id=4 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Product not found"}
+2023-06-15 00:54:59.471 [INF] -------------Request-End------------
+2023-06-15 00:58:25.859 [INF] Application is starting...
+2023-06-15 00:58:39.214 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 00:58:41.851 [INF] -------------Request-Begin------------
+2023-06-15 00:58:41.852 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=1 
+Request Body: 
+2023-06-15 00:58:41.853 [INF] 
+
+2023-06-15 00:58:41.854 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=1 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Internal Server Error"}
+2023-06-15 00:58:41.854 [INF] -------------Request-End------------
+2023-06-15 00:58:46.697 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 13:38:03.664 [INF] Application is starting...
+2023-06-15 13:38:25.409 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 13:38:27.844 [INF] -------------Request-Begin------------
+2023-06-15 13:38:27.845 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-15 13:38:27.846 [INF] 
+
+2023-06-15 13:38:27.846 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"Elektronik","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":1,"category":{"name":"Elektronik","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-14T21:47:23.0636252","createdBy":null,"updatedAt":null,"updatedBy":null}}]},{"name":"Bahçe","url":"string","tags":"string","products":[]},{"name":"Yemek","url":"string","tags":"string","products":[]}]}
+2023-06-15 13:38:27.847 [INF] -------------Request-End------------
+2023-06-15 13:39:42.462 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 13:39:43.538 [INF] -------------Request-Begin------------
+2023-06-15 13:39:43.538 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAll 
+QueryString:  
+Request Body: 
+2023-06-15 13:39:43.539 [INF] 
+
+2023-06-15 13:39:43.541 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"Deneme1","features":"string","description":"string","isActive":true,"stock":0,"pointEarningPercentage":0.00,"maxPointAmount":0.00,"categories":[{"productId":1,"product":{"name":"Deneme1","features":"string","description":"string","isActive":true,"stock":0,"pointEarningPercentage":0.00,"maxPointAmount":0.00,"categories":[null],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":1,"category":null}]}]}
+2023-06-15 13:39:43.542 [INF] -------------Request-End------------
+2023-06-15 13:40:47.197 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 13:40:49.657 [INF] -------------Request-Begin------------
+2023-06-15 13:40:49.658 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString: ?id=1 
+Request Body: {
+  "name": "string",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 0,
+  "pointEarningPercentage": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    1,2
+  ]
+}
+2023-06-15 13:40:49.658 [INF] 
+
+2023-06-15 13:40:49.660 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/UpdateProduct 
+QueryString: ?id=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 13:40:49.661 [INF] -------------Request-End------------
+2023-06-15 13:50:56.911 [INF] Application is starting...
+2023-06-15 13:55:19.821 [INF] Application is starting...
+2023-06-15 13:56:00.595 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 13:56:01.277 [INF] -------------Request-Begin------------
+2023-06-15 13:56:01.279 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetById 
+QueryString: ?id=1 
+Request Body: 
+2023-06-15 13:56:01.282 [INF] 
+
+2023-06-15 13:56:01.282 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetById 
+QueryString: ?id=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"name":"string","features":"string","description":"string","isActive":true,"stock":0,"pointEarningPercentage":0.00,"maxPointAmount":0.00,"categories":[{"productId":1,"product":{"name":"string","features":"string","description":"string","isActive":true,"stock":0,"pointEarningPercentage":0.00,"maxPointAmount":0.00,"categories":[null,{"productId":1,"product":null,"categoryId":2,"category":null}],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":1,"category":null},{"productId":1,"product":{"name":"string","features":"string","description":"string","isActive":true,"stock":0,"pointEarningPercentage":0.00,"maxPointAmount":0.00,"categories":[{"productId":1,"product":null,"categoryId":1,"category":null},null],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":2,"category":null}]}
+2023-06-15 13:56:01.283 [INF] -------------Request-End------------
+2023-06-15 13:57:44.972 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 13:57:45.037 [INF] -------------Request-Begin------------
+2023-06-15 13:57:45.038 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=1 
+Request Body: 
+2023-06-15 13:57:45.039 [INF] 
+
+2023-06-15 13:57:45.041 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"name":"Elektronik","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":1,"category":{"name":"Elektronik","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-14T21:47:23.0636252","createdBy":null,"updatedAt":null,"updatedBy":null}}]}
+2023-06-15 13:57:45.042 [INF] -------------Request-End------------
+2023-06-15 13:58:14.837 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 13:58:14.851 [INF] -------------Request-Begin------------
+2023-06-15 13:58:14.852 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetById 
+QueryString: ?id=1 
+Request Body: 
+2023-06-15 13:58:14.852 [INF] 
+
+2023-06-15 13:58:14.855 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetById 
+QueryString: ?id=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"name":"string","features":"string","description":"string","isActive":true,"stock":0,"pointEarningPercentage":0.00,"maxPointAmount":0.00,"categories":[{"productId":1,"product":{"name":"string","features":"string","description":"string","isActive":true,"stock":0,"pointEarningPercentage":0.00,"maxPointAmount":0.00,"categories":[null,{"productId":1,"product":null,"categoryId":2,"category":null}],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":1,"category":null},{"productId":1,"product":{"name":"string","features":"string","description":"string","isActive":true,"stock":0,"pointEarningPercentage":0.00,"maxPointAmount":0.00,"categories":[{"productId":1,"product":null,"categoryId":1,"category":null},null],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":2,"category":null}]}
+2023-06-15 13:58:14.856 [INF] -------------Request-End------------
+2023-06-15 14:08:06.839 [INF] Application is starting...
+2023-06-15 14:12:34.056 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 14:12:36.000 [INF] -------------Request-Begin------------
+2023-06-15 14:12:36.001 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString: ?id=1 
+Request Body: 
+2023-06-15 14:12:36.004 [INF] 
+
+2023-06-15 14:12:36.004 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString: ?id=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 14:12:36.005 [INF] -------------Request-End------------
+2023-06-15 20:40:47.265 [INF] Application is starting...
+2023-06-15 20:41:24.162 [INF] Application is starting...
+2023-06-15 20:41:59.838 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:42:01.703 [INF] -------------Request-Begin------------
+2023-06-15 20:42:01.703 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Elektronik",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-15 20:42:01.704 [INF] 
+
+2023-06-15 20:42:01.705 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 20:42:01.706 [INF] -------------Request-End------------
+2023-06-15 20:42:22.557 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:42:23.821 [INF] -------------Request-Begin------------
+2023-06-15 20:42:23.822 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Giyim",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-15 20:42:23.823 [INF] 
+
+2023-06-15 20:42:23.824 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 20:42:23.825 [INF] -------------Request-End------------
+2023-06-15 20:42:32.762 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:42:34.078 [INF] -------------Request-Begin------------
+2023-06-15 20:42:34.079 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-15 20:42:34.080 [INF] 
+
+2023-06-15 20:42:34.081 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"Elektronik","url":"string","tags":"string","products":[]},{"name":"Giyim","url":"string","tags":"string","products":[]}]}
+2023-06-15 20:42:34.081 [INF] -------------Request-End------------
+2023-06-15 20:42:46.663 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:42:46.713 [INF] -------------Request-Begin------------
+2023-06-15 20:42:46.714 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=2 
+Request Body: 
+2023-06-15 20:42:46.714 [INF] 
+
+2023-06-15 20:42:46.715 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=2 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"name":"Giyim","url":"string","tags":"string","products":[]}}
+2023-06-15 20:42:46.716 [INF] -------------Request-End------------
+2023-06-15 20:43:03.200 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:43:04.159 [INF] -------------Request-Begin------------
+2023-06-15 20:43:04.160 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAll 
+QueryString:  
+Request Body: 
+2023-06-15 20:43:04.160 [INF] 
+
+2023-06-15 20:43:04.161 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-06-15 20:43:04.163 [INF] -------------Request-End------------
+2023-06-15 20:43:24.383 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:43:25.433 [INF] -------------Request-Begin------------
+2023-06-15 20:43:25.433 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "Bilgisayar",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 20,
+  "pointEarningPercentage": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    1
+  ]
+}
+2023-06-15 20:43:25.434 [INF] 
+
+2023-06-15 20:43:25.436 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 20:43:25.437 [INF] -------------Request-End------------
+2023-06-15 20:43:40.314 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:43:41.405 [INF] -------------Request-Begin------------
+2023-06-15 20:43:41.405 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "Telefon",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 20,
+  "pointEarningPercentage": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    1
+  ]
+}
+2023-06-15 20:43:41.407 [INF] 
+
+2023-06-15 20:43:41.408 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 20:43:41.409 [INF] -------------Request-End------------
+2023-06-15 20:43:50.903 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:43:51.821 [INF] -------------Request-Begin------------
+2023-06-15 20:43:51.821 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-15 20:43:51.822 [INF] 
+
+2023-06-15 20:43:51.823 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"Elektronik","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":1,"category":{"name":"Elektronik","url":"string","tags":"string","products":[null,{"productId":2,"product":null,"categoryId":1,"category":null}],"id":1,"createdAt":"2023-06-15T17:41:59.9817155","createdBy":null,"updatedAt":null,"updatedBy":null},{"productId":2,"product":null,"categoryId":1,"category":{"name":"Elektronik","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":1,"category":null},null],"id":1,"createdAt":"2023-06-15T17:41:59.9817155","createdBy":null,"updatedAt":null,"updatedBy":null}]},{"name":"Giyim","url":"string","tags":"string","products":[]}]}
+2023-06-15 20:43:51.824 [INF] -------------Request-End------------
+2023-06-15 20:44:36.292 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:45:33.010 [INF] -------------Request-Begin------------
+2023-06-15 20:45:33.052 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-15 20:45:33.056 [INF] 
+
+2023-06-15 20:45:33.060 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"Elektronik","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":1,"category":{"name":"Elektronik","url":"string","tags":"string","products":[null,{"productId":2,"product":null,"categoryId":1,"category":null}],"id":1,"createdAt":"2023-06-15T17:41:59.9817155","createdBy":null,"updatedAt":null,"updatedBy":null},{"productId":2,"product":null,"categoryId":1,"category":{"name":"Elektronik","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":1,"category":null},null],"id":1,"createdAt":"2023-06-15T17:41:59.9817155","createdBy":null,"updatedAt":null,"updatedBy":null}]},{"name":"Giyim","url":"string","tags":"string","products":[]}]}
+2023-06-15 20:45:33.061 [INF] -------------Request-End------------
+2023-06-15 20:46:15.010 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:46:37.580 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:46:39.020 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:47:37.000 [INF] Application is starting...
+2023-06-15 20:48:06.230 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:48:07.921 [INF] -------------Request-Begin------------
+2023-06-15 20:48:07.922 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+Request Body: {
+  "code": "string",
+  "amount": 0,
+  "expirationDate": "2023-06-15T18:47:48.796Z",
+  "isActive": true
+}
+2023-06-15 20:48:07.922 [INF] 
+
+2023-06-15 20:48:07.923 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Missing type map configuration or unsupported mapping.\r\n\r\nMapping types:\r\nCouponRequest -> Coupon\r\nDigital.Schema.Dto.Coupon.CouponRequest -> Digital.Data.Model.Coupon"}
+2023-06-15 20:48:07.924 [INF] -------------Request-End------------
+2023-06-15 20:48:53.682 [INF] Application is starting...
+2023-06-15 20:49:17.532 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:49:20.343 [INF] -------------Request-Begin------------
+2023-06-15 20:49:20.344 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+Request Body: {
+  "code": "string",
+  "amount": 20,
+  "expirationDate": "2023-06-15T17:49:10.855Z",
+  "isActive": true
+}
+2023-06-15 20:49:20.345 [INF] 
+
+2023-06-15 20:49:20.345 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Internal Server Error"}
+2023-06-15 20:49:20.346 [INF] -------------Request-End------------
+2023-06-15 20:49:27.258 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:50:04.482 [INF] Application is starting...
+2023-06-15 20:50:15.335 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:50:19.875 [INF] -------------Request-Begin------------
+2023-06-15 20:50:19.876 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+Request Body: {
+  "code": "string",
+  "amount": 0,
+  "expirationDate": "2023-06-15T17:50:12.715Z",
+  "isActive": true
+}
+2023-06-15 20:50:19.877 [INF] 
+
+2023-06-15 20:50:19.877 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Internal Server Error"}
+2023-06-15 20:50:19.878 [INF] -------------Request-End------------
+2023-06-15 20:50:25.730 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:50:56.331 [INF] Application is starting...
+2023-06-15 20:51:55.975 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:52:45.584 [INF] Application is starting...
+2023-06-15 20:52:53.997 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:52:56.399 [INF] -------------Request-Begin------------
+2023-06-15 20:52:56.400 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+Request Body: {
+  "code": "string",
+  "amount": 0,
+  "expirationDate": "2023-06-15T17:52:52.209Z",
+  "isActive": true
+}
+2023-06-15 20:52:56.401 [INF] 
+
+2023-06-15 20:52:56.402 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 20:52:56.402 [INF] -------------Request-End------------
+2023-06-15 20:53:08.530 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:53:08.736 [INF] -------------Request-Begin------------
+2023-06-15 20:53:08.737 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon/GetAll 
+QueryString:  
+Request Body: 
+2023-06-15 20:53:08.738 [INF] 
+
+2023-06-15 20:53:08.740 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"code":"string","amount":0.00,"expirationDate":"2023-06-15T17:52:52.209","isActive":true}]}
+2023-06-15 20:53:08.740 [INF] -------------Request-End------------
+2023-06-15 20:53:20.579 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:53:20.724 [INF] -------------Request-Begin------------
+2023-06-15 20:53:20.725 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon/GetById 
+QueryString: ?id=1 
+Request Body: 
+2023-06-15 20:53:20.725 [INF] 
+
+2023-06-15 20:53:20.726 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon/GetById 
+QueryString: ?id=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"code":"string","amount":0.00,"expirationDate":"2023-06-15T17:52:52.209","isActive":true}}
+2023-06-15 20:53:20.727 [INF] -------------Request-End------------
+2023-06-15 20:53:39.061 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:53:40.140 [INF] -------------Request-Begin------------
+2023-06-15 20:53:40.141 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString: ?id=1 
+Request Body: {
+  "code": "string",
+  "amount": 100,
+  "expirationDate": "2023-06-15T18:53:29.412Z",
+  "isActive": true
+}
+2023-06-15 20:53:40.141 [INF] 
+
+2023-06-15 20:53:40.144 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString: ?id=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-15 20:53:40.144 [INF] -------------Request-End------------
+2023-06-15 20:53:49.148 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-15 20:53:50.156 [INF] -------------Request-Begin------------
+2023-06-15 20:53:50.156 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString: ?id=1 
+Request Body: {
+  "code": "striksdjskdjkdsjdksdsng",
+  "amount": 100,
+  "expirationDate": "2023-06-15T18:53:29.412Z",
+  "isActive": true
+}
+2023-06-15 20:53:50.157 [INF] 
+
+2023-06-15 20:53:50.158 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString: ?id=1 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Internal Server Error"}
+2023-06-15 20:53:50.159 [INF] -------------Request-End------------

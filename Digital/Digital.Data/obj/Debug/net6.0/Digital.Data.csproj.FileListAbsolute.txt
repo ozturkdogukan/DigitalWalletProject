@@ -1,0 +1,17 @@
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Data\bin\Debug\net6.0\Digital.Data.deps.json
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Data\bin\Debug\net6.0\Digital.Data.runtimeconfig.json
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Data\bin\Debug\net6.0\Digital.Data.dll
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Data\bin\Debug\net6.0\Digital.Data.pdb
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Data\bin\Debug\net6.0\Digital.Base.dll
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Data\bin\Debug\net6.0\Digital.Base.pdb
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Data\obj\Debug\net6.0\Digital.Data.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Data\obj\Debug\net6.0\Digital.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Data\obj\Debug\net6.0\Digital.Data.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Data\obj\Debug\net6.0\Digital.Data.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Data\obj\Debug\net6.0\Digital.Data.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Data\obj\Debug\net6.0\Digital.Data.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Data\obj\Debug\net6.0\Digital.Data.dll
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Data\obj\Debug\net6.0\refint\Digital.Data.dll
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Data\obj\Debug\net6.0\Digital.Data.pdb
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Data\obj\Debug\net6.0\Digital.Data.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\Simpra Ödevler\Bitirme Projesi\Digital\Digital.Data\obj\Debug\net6.0\ref\Digital.Data.dll

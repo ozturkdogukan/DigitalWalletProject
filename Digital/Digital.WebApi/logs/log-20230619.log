@@ -1,0 +1,954 @@
+2023-06-19 00:09:57.134 [INF] Application is starting...
+2023-06-19 00:10:55.710 [INF] Application is starting...
+2023-06-19 00:11:34.954 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:11:35.045 [INF] -------------Request-Begin------------
+2023-06-19 00:11:35.046 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-19 00:11:35.047 [INF] 
+
+2023-06-19 00:11:35.048 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-06-19 00:11:35.049 [INF] -------------Request-End------------
+2023-06-19 00:11:41.241 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:20:12.587 [INF] Application is starting...
+2023-06-19 00:20:27.062 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:20:27.160 [INF] -------------Request-Begin------------
+2023-06-19 00:20:27.161 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Admin/DeleteUser 
+QueryString: ?userId=1 
+Request Body: 
+2023-06-19 00:20:27.162 [INF] 
+
+2023-06-19 00:20:27.162 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Admin/DeleteUser 
+QueryString: ?userId=1 
+StatusCode: 401 
+Response Body: 
+2023-06-19 00:20:27.163 [INF] -------------Request-End------------
+2023-06-19 00:20:37.893 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:20:38.438 [INF] -------------Request-Begin------------
+2023-06-19 00:20:38.438 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=1 
+Request Body: 
+2023-06-19 00:20:38.439 [INF] 
+
+2023-06-19 00:20:38.443 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=1 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Not Found","response":null}
+2023-06-19 00:20:38.443 [INF] -------------Request-End------------
+2023-06-19 00:20:46.592 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:20:46.596 [INF] -------------Request-Begin------------
+2023-06-19 00:20:46.597 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-19 00:20:46.598 [INF] 
+
+2023-06-19 00:20:46.598 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-06-19 00:20:46.599 [INF] -------------Request-End------------
+2023-06-19 00:20:53.233 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:20:53.234 [INF] -------------Request-Begin------------
+2023-06-19 00:20:53.234 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+Request Body: {
+  "code": "string",
+  "percentAmount": 0,
+  "expirationDate": "2023-06-18T21:20:51.767Z",
+  "isActive": true
+}
+2023-06-19 00:20:53.235 [INF] 
+
+2023-06-19 00:20:53.236 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-06-19 00:20:53.237 [INF] -------------Request-End------------
+2023-06-19 00:20:59.604 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:20:59.624 [INF] -------------Request-Begin------------
+2023-06-19 00:20:59.624 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    0
+  ]
+}
+2023-06-19 00:20:59.625 [INF] 
+
+2023-06-19 00:20:59.626 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-beb0af4ca4d6df95de6c01c1c69b9b01-35b4fe04ae37deeb-00"}
+2023-06-19 00:20:59.627 [INF] -------------Request-End------------
+2023-06-19 00:21:41.099 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:21:41.166 [INF] -------------Request-Begin------------
+2023-06-19 00:21:41.167 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/OrderDetail/GetAll 
+QueryString: ?orderNumber=232232 
+Request Body: 
+2023-06-19 00:21:41.167 [INF] 
+
+2023-06-19 00:21:41.168 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/OrderDetail/GetAll 
+QueryString: ?orderNumber=232232 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-06-19 00:21:41.169 [INF] -------------Request-End------------
+2023-06-19 00:22:09.525 [INF] Application is starting...
+2023-06-19 00:22:23.976 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:22:24.072 [INF] -------------Request-Begin------------
+2023-06-19 00:22:24.072 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/OrderDetail/GetAll 
+QueryString: ?orderNumber=4221145 
+Request Body: 
+2023-06-19 00:22:24.073 [INF] 
+
+2023-06-19 00:22:24.073 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/OrderDetail/GetAll 
+QueryString: ?orderNumber=4221145 
+StatusCode: 401 
+Response Body: 
+2023-06-19 00:22:24.074 [INF] -------------Request-End------------
+2023-06-19 00:22:31.645 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:22:31.652 [INF] -------------Request-Begin------------
+2023-06-19 00:22:31.652 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 0,
+  "pointEarningPercentage": 0,
+  "price": 0,
+  "maxPointAmount": 0,
+  "categoryIds": [
+    0
+  ]
+}
+2023-06-19 00:22:31.653 [INF] 
+
+2023-06-19 00:22:31.653 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-06-19 00:22:31.654 [INF] -------------Request-End------------
+2023-06-19 00:22:46.507 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:22:46.509 [INF] -------------Request-Begin------------
+2023-06-19 00:22:46.510 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+Request Body: 
+2023-06-19 00:22:46.511 [INF] 
+
+2023-06-19 00:22:46.511 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-06-19 00:22:46.512 [INF] -------------Request-End------------
+2023-06-19 00:23:09.493 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:23:10.042 [INF] -------------Request-Begin------------
+2023-06-19 00:23:10.042 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "admin@ssdksd.com",
+  "password": "string"
+}
+2023-06-19 00:23:10.046 [INF] 
+
+2023-06-19 00:23:10.047 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Email or password is incorrect.","response":null}
+2023-06-19 00:23:10.047 [INF] -------------Request-End------------
+2023-06-19 00:23:16.566 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:23:16.652 [INF] -------------Request-Begin------------
+2023-06-19 00:23:16.653 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "admin@admin.com",
+  "password": "string"
+}
+2023-06-19 00:23:16.653 [INF] 
+
+2023-06-19 00:23:16.654 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Email or password is incorrect.","response":null}
+2023-06-19 00:23:16.655 [INF] -------------Request-End------------
+2023-06-19 00:23:23.516 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:23:23.635 [INF] -------------Request-Begin------------
+2023-06-19 00:23:23.636 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "admin@admin.com",
+  "password": "admin"
+}
+2023-06-19 00:23:23.637 [INF] 
+
+2023-06-19 00:23:23.638 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-19T00:38:23.6323509+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoiQWRtaW4iLCJMYXN0TmFtZSI6IlVzZXIiLCJSb2xlIjoiQWRtaW4iLCJTdGF0dXMiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiQWRtaW4gVXNlciIsImV4cCI6MTY4NzEyNDMwMywiaXNzIjoiU2ltQXBpIiwiYXVkIjoiU2ltQXBpIn0.p4Z3EMB_Fu5pBtJtrT_EIiwmxwKtgiDg5uZ_DB4XuGY","email":"admin@admin.com"}}
+2023-06-19 00:23:23.639 [INF] -------------Request-End------------
+2023-06-19 00:23:55.868 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:23:56.093 [INF] -------------Request-Begin------------
+2023-06-19 00:23:56.094 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Admin/Register 
+QueryString:  
+Request Body: {
+  "name": "Doğukan",
+  "lastName": "string",
+  "email": "string@gmail.com",
+  "password": "string"
+}
+2023-06-19 00:23:56.097 [INF] 
+
+2023-06-19 00:23:56.097 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Admin/Register 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-19 00:23:56.098 [INF] -------------Request-End------------
+2023-06-19 00:24:20.911 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:24:24.659 [INF] -------------Request-Begin------------
+2023-06-19 00:24:24.659 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Elektronik",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-19 00:24:24.661 [INF] 
+
+2023-06-19 00:24:24.663 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-19 00:24:24.663 [INF] -------------Request-End------------
+2023-06-19 00:24:34.471 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:24:34.480 [INF] -------------Request-Begin------------
+2023-06-19 00:24:34.481 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Giyim",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-19 00:24:34.482 [INF] 
+
+2023-06-19 00:24:34.482 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-19 00:24:34.483 [INF] -------------Request-End------------
+2023-06-19 00:24:38.936 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:24:38.943 [INF] -------------Request-Begin------------
+2023-06-19 00:24:38.943 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Elbise",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-19 00:24:38.944 [INF] 
+
+2023-06-19 00:24:38.945 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-19 00:24:38.945 [INF] -------------Request-End------------
+2023-06-19 00:24:51.804 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:24:55.247 [INF] -------------Request-Begin------------
+2023-06-19 00:24:55.248 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+Request Body: {
+  "code": "string",
+  "percentAmount": 20,
+  "expirationDate": "2023-06-18T21:24:45.217Z",
+  "isActive": true
+}
+2023-06-19 00:24:55.249 [INF] 
+
+2023-06-19 00:24:55.250 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-19 00:24:55.250 [INF] -------------Request-End------------
+2023-06-19 00:25:04.393 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:25:04.416 [INF] -------------Request-Begin------------
+2023-06-19 00:25:04.416 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon/GetAll 
+QueryString:  
+Request Body: 
+2023-06-19 00:25:04.417 [INF] 
+
+2023-06-19 00:25:04.418 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"code":"string","amount":0,"expirationDate":"2023-06-18T21:24:45.217","isActive":true}]}
+2023-06-19 00:25:04.418 [INF] -------------Request-End------------
+2023-06-19 00:26:14.980 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:26:15.079 [INF] -------------Request-Begin------------
+2023-06-19 00:26:15.079 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "Bilgisayar",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 10,
+  "pointEarningPercentage": 13,
+  "price": 300,
+  "maxPointAmount": 15,
+  "categoryIds": [
+    1,2
+  ]
+}
+2023-06-19 00:26:15.080 [INF] 
+
+2023-06-19 00:26:15.082 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-19 00:26:15.083 [INF] -------------Request-End------------
+2023-06-19 00:26:42.442 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:26:42.453 [INF] -------------Request-Begin------------
+2023-06-19 00:26:42.454 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "Abiye",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 10,
+  "pointEarningPercentage": 11,
+  "price": 200,
+  "maxPointAmount": 10,
+  "categoryIds": [
+    2
+  ]
+}
+2023-06-19 00:26:42.455 [INF] 
+
+2023-06-19 00:26:42.457 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-19 00:26:42.457 [INF] -------------Request-End------------
+2023-06-19 00:26:55.962 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:26:56.076 [INF] -------------Request-Begin------------
+2023-06-19 00:26:56.076 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-19 00:26:56.077 [INF] 
+
+2023-06-19 00:26:56.078 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"Elektronik","url":"string","tags":"string","products":[{"productId":1,"product":{"name":"Bilgisayar","features":"string","description":"string","price":300.00,"isActive":true,"stock":10,"pointEarningPercentage":13.00,"maxPointAmount":15.00,"categories":[null,{"productId":1,"product":null,"categoryId":2,"category":{"name":"Giyim","url":"string","tags":"string","products":[null,{"productId":2,"product":{"name":"Abiye","features":"string","description":"string","price":200.00,"isActive":true,"stock":10,"pointEarningPercentage":11.00,"maxPointAmount":10.00,"categories":[null],"id":2,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":2,"category":null}],"id":2,"createdAt":"2023-06-18T21:24:34.4731233","createdBy":null,"updatedAt":null,"updatedBy":null}],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":1,"category":{"name":"Elektronik","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-18T21:24:24.6332513","createdBy":null,"updatedAt":null,"updatedBy":null}}]},{"name":"Giyim","url":"string","tags":"string","products":[{"productId":1,"product":{"name":"Bilgisayar","features":"string","description":"string","price":300.00,"isActive":true,"stock":10,"pointEarningPercentage":13.00,"maxPointAmount":15.00,"categories":[{"productId":1,"product":null,"categoryId":1,"category":{"name":"Elektronik","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-18T21:24:24.6332513","createdBy":null,"updatedAt":null,"updatedBy":null}},null],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":2,"category":{"name":"Giyim","url":"string","tags":"string","products":[null,{"productId":2,"product":{"name":"Abiye","features":"string","description":"string","price":200.00,"isActive":true,"stock":10,"pointEarningPercentage":11.00,"maxPointAmount":10.00,"categories":[null],"id":2,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":2,"category":null}],"id":2,"createdAt":"2023-06-18T21:24:34.4731233","createdBy":null,"updatedAt":null,"updatedBy":null},{"productId":2,"product":{"name":"Abiye","features":"string","description":"string","price":200.00,"isActive":true,"stock":10,"pointEarningPercentage":11.00,"maxPointAmount":10.00,"categories":[null],"id":2,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":2,"category":{"name":"Giyim","url":"string","tags":"string","products":[{"productId":1,"product":{"name":"Bilgisayar","features":"string","description":"string","price":300.00,"isActive":true,"stock":10,"pointEarningPercentage":13.00,"maxPointAmount":15.00,"categories":[{"productId":1,"product":null,"categoryId":1,"category":{"name":"Elektronik","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-18T21:24:24.6332513","createdBy":null,"updatedAt":null,"updatedBy":null}},null],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":2,"category":null},null],"id":2,"createdAt":"2023-06-18T21:24:34.4731233","createdBy":null,"updatedAt":null,"updatedBy":null}]},{"name":"Elbise","url":"string","tags":"string","products":[]}]}
+2023-06-19 00:26:56.080 [INF] -------------Request-End------------
+2023-06-19 00:27:57.018 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:27:57.050 [INF] -------------Request-Begin------------
+2023-06-19 00:27:57.050 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+Request Body: {
+  "name": "Mustafa",
+  "lastName": "string",
+  "email": "mustafa@gmail.com",
+  "password": "string"
+}
+2023-06-19 00:27:57.051 [INF] 
+
+2023-06-19 00:27:57.053 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-19 00:27:57.054 [INF] -------------Request-End------------
+2023-06-19 00:28:11.996 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:28:12.001 [INF] -------------Request-Begin------------
+2023-06-19 00:28:12.001 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "mustafa@gmail.com",
+  "password": "string"
+}
+2023-06-19 00:28:12.002 [INF] 
+
+2023-06-19 00:28:12.003 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-19T00:43:12.0010685+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIzIiwiRmlyc3ROYW1lIjoiTXVzdGFmYSIsIkxhc3ROYW1lIjoic3RyaW5nIiwiUm9sZSI6Ik1lbWJlciIsIlN0YXR1cyI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJNZW1iZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiTXVzdGFmYSBzdHJpbmciLCJleHAiOjE2ODcxMjQ1OTIsImlzcyI6IlNpbUFwaSIsImF1ZCI6IlNpbUFwaSJ9.2AjG38i_hY8OcV7eCe-ea8jPMGvnskf2XZRsRSnmtAo","email":"mustafa@gmail.com"}}
+2023-06-19 00:28:12.004 [INF] -------------Request-End------------
+2023-06-19 00:28:33.710 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:28:33.712 [INF] -------------Request-Begin------------
+2023-06-19 00:28:33.713 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Elbise",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-19 00:28:33.714 [INF] 
+
+2023-06-19 00:28:33.714 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-06-19 00:28:33.715 [INF] -------------Request-End------------
+2023-06-19 00:28:39.851 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:28:39.852 [INF] -------------Request-Begin------------
+2023-06-19 00:28:39.852 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+Request Body: {
+  "code": "string",
+  "percentAmount": 20,
+  "expirationDate": "2023-06-18T21:24:45.217Z",
+  "isActive": true
+}
+2023-06-19 00:28:39.853 [INF] 
+
+2023-06-19 00:28:39.853 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-06-19 00:28:39.854 [INF] -------------Request-End------------
+2023-06-19 00:29:01.559 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:29:01.679 [INF] -------------Request-Begin------------
+2023-06-19 00:29:01.680 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2
+  ]
+}
+2023-06-19 00:29:01.681 [INF] 
+
+2023-06-19 00:29:01.681 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-19 00:29:01.682 [INF] -------------Request-End------------
+2023-06-19 00:29:29.837 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:30:36.428 [INF] Application is starting...
+2023-06-19 00:30:58.848 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:30:59.593 [INF] -------------Request-Begin------------
+2023-06-19 00:30:59.594 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "mustafa@gmail.com",
+  "password": "string"
+}
+2023-06-19 00:30:59.597 [INF] 
+
+2023-06-19 00:30:59.598 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-19T00:45:59.5818683+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIzIiwiRmlyc3ROYW1lIjoiTXVzdGFmYSIsIkxhc3ROYW1lIjoic3RyaW5nIiwiUm9sZSI6Ik1lbWJlciIsIlN0YXR1cyI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJNZW1iZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiTXVzdGFmYSBzdHJpbmciLCJleHAiOjE2ODcxMjQ3NTksImlzcyI6IlNpbUFwaSIsImF1ZCI6IlNpbUFwaSJ9.WZDIbHnvuNdVEfHijumGK0IcYEczZ2cgKF6hnWLbbL0","email":"mustafa@gmail.com"}}
+2023-06-19 00:30:59.599 [INF] -------------Request-End------------
+2023-06-19 00:31:20.482 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:31:20.604 [INF] -------------Request-Begin------------
+2023-06-19 00:31:20.605 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+Request Body: 
+2023-06-19 00:31:20.605 [INF] 
+
+2023-06-19 00:31:20.608 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"digitalWallet":25.00,"id":3}}
+2023-06-19 00:31:20.608 [INF] -------------Request-End------------
+2023-06-19 00:31:40.416 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:31:40.455 [INF] -------------Request-Begin------------
+2023-06-19 00:31:40.456 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAllMyOrder 
+QueryString:  
+Request Body: 
+2023-06-19 00:31:40.456 [INF] 
+
+2023-06-19 00:31:40.459 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAllMyOrder 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userID":3,"orderNumber":"996533760","cartAmount":500.00,"couponAmount":0.00,"couponCode":"","pointAmount":0.00}]}
+2023-06-19 00:31:40.459 [INF] -------------Request-End------------
+2023-06-19 00:32:04.360 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:32:04.659 [INF] -------------Request-Begin------------
+2023-06-19 00:32:04.660 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2
+  ]
+}
+2023-06-19 00:32:04.661 [INF] 
+
+2023-06-19 00:32:04.663 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-19 00:32:04.664 [INF] -------------Request-End------------
+2023-06-19 00:32:10.667 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:32:10.676 [INF] -------------Request-Begin------------
+2023-06-19 00:32:10.677 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+Request Body: 
+2023-06-19 00:32:10.677 [INF] 
+
+2023-06-19 00:32:10.678 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"digitalWallet":25.00,"id":3}}
+2023-06-19 00:32:10.678 [INF] -------------Request-End------------
+2023-06-19 00:32:13.901 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:32:13.907 [INF] -------------Request-Begin------------
+2023-06-19 00:32:13.907 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+Request Body: 
+2023-06-19 00:32:13.908 [INF] 
+
+2023-06-19 00:32:13.908 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"digitalWallet":25.00,"id":3}}
+2023-06-19 00:32:13.909 [INF] -------------Request-End------------
+2023-06-19 00:32:19.354 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:32:19.362 [INF] -------------Request-Begin------------
+2023-06-19 00:32:19.363 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+Request Body: 
+2023-06-19 00:32:19.364 [INF] 
+
+2023-06-19 00:32:19.365 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"digitalWallet":25.00,"id":3}}
+2023-06-19 00:32:19.365 [INF] -------------Request-End------------
+2023-06-19 00:32:26.162 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:32:26.168 [INF] -------------Request-Begin------------
+2023-06-19 00:32:26.168 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAllMyOrder 
+QueryString:  
+Request Body: 
+2023-06-19 00:32:26.169 [INF] 
+
+2023-06-19 00:32:26.169 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAllMyOrder 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userID":3,"orderNumber":"996533760","cartAmount":500.00,"couponAmount":0.00,"couponCode":"","pointAmount":0.00},{"userID":3,"orderNumber":"306531059","cartAmount":475.00,"couponAmount":0.00,"couponCode":"","pointAmount":25.00}]}
+2023-06-19 00:32:26.170 [INF] -------------Request-End------------
+2023-06-19 00:32:41.640 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:32:41.645 [INF] -------------Request-Begin------------
+2023-06-19 00:32:41.646 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+Request Body: 
+2023-06-19 00:32:41.647 [INF] 
+
+2023-06-19 00:32:41.647 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"digitalWallet":25.00,"id":3}}
+2023-06-19 00:32:41.648 [INF] -------------Request-End------------
+2023-06-19 00:34:10.789 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:34:10.798 [INF] -------------Request-Begin------------
+2023-06-19 00:34:10.799 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+Request Body: 
+2023-06-19 00:34:10.799 [INF] 
+
+2023-06-19 00:34:10.802 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/GetUserPoint 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"digitalWallet":25.00,"id":3}}
+2023-06-19 00:34:10.803 [INF] -------------Request-End------------
+2023-06-19 00:34:20.390 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:35:33.677 [INF] -------------Request-Begin------------
+2023-06-19 00:35:33.677 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2
+  ]
+}
+2023-06-19 00:35:33.678 [INF] 
+
+2023-06-19 00:35:33.679 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-19 00:35:33.679 [INF] -------------Request-End------------
+2023-06-19 00:35:56.665 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:36:02.322 [INF] -------------Request-Begin------------
+2023-06-19 00:36:02.323 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAll 
+QueryString:  
+Request Body: 
+2023-06-19 00:36:02.324 [INF] 
+
+2023-06-19 00:36:02.326 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"Bilgisayar","features":"string","description":"string","isActive":true,"stock":7,"pointEarningPercentage":13.00,"maxPointAmount":15.00,"categories":[{"productId":1,"product":{"name":"Bilgisayar","features":"string","description":"string","price":300.00,"isActive":true,"stock":7,"pointEarningPercentage":13.00,"maxPointAmount":15.00,"categories":[null,{"productId":1,"product":null,"categoryId":2,"category":null}],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":1,"category":null},{"productId":1,"product":{"name":"Bilgisayar","features":"string","description":"string","price":300.00,"isActive":true,"stock":7,"pointEarningPercentage":13.00,"maxPointAmount":15.00,"categories":[{"productId":1,"product":null,"categoryId":1,"category":null},null],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":2,"category":null}]},{"name":"Abiye","features":"string","description":"string","isActive":true,"stock":7,"pointEarningPercentage":11.00,"maxPointAmount":10.00,"categories":[{"productId":2,"product":{"name":"Abiye","features":"string","description":"string","price":200.00,"isActive":true,"stock":7,"pointEarningPercentage":11.00,"maxPointAmount":10.00,"categories":[null],"id":2,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":2,"category":null}]}]}
+2023-06-19 00:36:02.327 [INF] -------------Request-End------------
+2023-06-19 00:36:29.702 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:36:29.710 [INF] -------------Request-Begin------------
+2023-06-19 00:36:29.710 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/StockUpdate 
+QueryString: ?id=1&stock=10 
+Request Body: 
+2023-06-19 00:36:29.711 [INF] 
+
+2023-06-19 00:36:29.712 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/StockUpdate 
+QueryString: ?id=1&stock=10 
+StatusCode: 403 
+Response Body: 
+2023-06-19 00:36:29.712 [INF] -------------Request-End------------
+2023-06-19 00:37:02.368 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:37:02.380 [INF] -------------Request-Begin------------
+2023-06-19 00:37:02.381 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+Request Body: {
+  "name": "Arif",
+  "lastName": "Kaya",
+  "email": "arifkaya@gmail.com",
+  "password": "string"
+}
+2023-06-19 00:37:02.381 [INF] 
+
+2023-06-19 00:37:02.384 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record Not Found."}
+2023-06-19 00:37:02.384 [INF] -------------Request-End------------
+2023-06-19 00:37:30.667 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:37:30.673 [INF] -------------Request-Begin------------
+2023-06-19 00:37:30.673 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "mustafa@gmail.com",
+  "password": "string"
+}
+2023-06-19 00:37:30.674 [INF] 
+
+2023-06-19 00:37:30.675 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-19T00:52:30.6729385+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIzIiwiRmlyc3ROYW1lIjoiTXVzdGFmYSIsIkxhc3ROYW1lIjoic3RyaW5nIiwiUm9sZSI6Ik1lbWJlciIsIlN0YXR1cyI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJNZW1iZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiTXVzdGFmYSBzdHJpbmciLCJleHAiOjE2ODcxMjUxNTAsImlzcyI6IlNpbUFwaSIsImF1ZCI6IlNpbUFwaSJ9.8Eyijw_8ls1CX0xwass0oyzHlYSW4PdCfXLx5FSsXPQ","email":"mustafa@gmail.com"}}
+2023-06-19 00:37:30.676 [INF] -------------Request-End------------
+2023-06-19 00:37:56.319 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:37:56.332 [INF] -------------Request-Begin------------
+2023-06-19 00:37:56.333 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+Request Body: {
+  "name": "Arif",
+  "lastName": "Kaya",
+  "email": "arifkaya@gmail.com",
+  "password": "string"
+}
+2023-06-19 00:37:56.334 [INF] 
+
+2023-06-19 00:37:56.336 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record Not Found."}
+2023-06-19 00:37:56.336 [INF] -------------Request-End------------
+2023-06-19 00:38:14.194 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-19 00:40:37.026 [INF] -------------Request-Begin------------
+2023-06-19 00:40:37.026 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+Request Body: {
+  "name": "Arif",
+  "lastName": "Kaya",
+  "email": "arifkaya@gmail.com",
+  "password": "string"
+}
+2023-06-19 00:40:37.027 [INF] 
+
+2023-06-19 00:40:37.028 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/User/UserUpdate 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Internal Server Error"}
+2023-06-19 00:40:37.029 [INF] -------------Request-End------------
+2023-06-19 00:40:55.262 [INF] LogRequestLoggingMiddleware.Invoke

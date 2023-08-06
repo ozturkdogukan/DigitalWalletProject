@@ -1,0 +1,317 @@
+2023-06-18 00:06:03.049 [INF] Application is starting...
+2023-06-18 00:07:07.052 [INF] Application is starting...
+2023-06-18 00:07:23.655 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-18 00:07:24.384 [INF] -------------Request-Begin------------
+2023-06-18 00:07:24.384 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAllProduct 
+QueryString: ?isActive=true 
+Request Body: 
+2023-06-18 00:07:24.385 [INF] 
+
+2023-06-18 00:07:24.386 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAllProduct 
+QueryString: ?isActive=true 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"Telefon","features":"string","description":"string","isActive":true,"stock":13,"pointEarningPercentage":12.00,"maxPointAmount":15.00,"categories":[{"productId":1,"product":{"name":"Telefon","features":"string","description":"string","price":200.00,"isActive":true,"stock":13,"pointEarningPercentage":12.00,"maxPointAmount":15.00,"categories":[null],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":1,"category":null}]},{"name":"Elbise","features":"string","description":"string","isActive":true,"stock":8,"pointEarningPercentage":10.00,"maxPointAmount":13.00,"categories":[{"productId":2,"product":{"name":"Elbise","features":"string","description":"string","price":100.00,"isActive":true,"stock":8,"pointEarningPercentage":10.00,"maxPointAmount":13.00,"categories":[null],"id":2,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":2,"category":null}]},{"name":"Jant","features":"string","description":"string","isActive":true,"stock":3,"pointEarningPercentage":8.00,"maxPointAmount":11.00,"categories":[{"productId":3,"product":{"name":"Jant","features":"string","description":"string","price":120.00,"isActive":true,"stock":3,"pointEarningPercentage":8.00,"maxPointAmount":11.00,"categories":[null],"id":3,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":3,"category":null}]}]}
+2023-06-18 00:07:24.387 [INF] -------------Request-End------------
+2023-06-18 00:08:11.479 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-18 00:08:11.582 [INF] -------------Request-Begin------------
+2023-06-18 00:08:11.583 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-18 00:08:11.584 [INF] 
+
+2023-06-18 00:08:11.585 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"Elektronik","url":"string","tags":"string","products":[{"productId":1,"product":{"name":"Telefon","features":"string","description":"string","price":200.00,"isActive":true,"stock":13,"pointEarningPercentage":12.00,"maxPointAmount":15.00,"categories":[null],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":1,"category":{"name":"Elektronik","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-16T16:14:15.9597076","createdBy":null,"updatedAt":null,"updatedBy":null}}]},{"name":"Giyim","url":"string","tags":"string","products":[{"productId":2,"product":{"name":"Elbise","features":"string","description":"string","price":100.00,"isActive":true,"stock":8,"pointEarningPercentage":10.00,"maxPointAmount":13.00,"categories":[null],"id":2,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":2,"category":{"name":"Giyim","url":"string","tags":"string","products":[null],"id":2,"createdAt":"2023-06-16T16:14:23.0206084","createdBy":null,"updatedAt":null,"updatedBy":null}}]},{"name":"Yedek Parça","url":"string","tags":"string","products":[{"productId":3,"product":{"name":"Jant","features":"string","description":"string","price":120.00,"isActive":true,"stock":3,"pointEarningPercentage":8.00,"maxPointAmount":11.00,"categories":[null],"id":3,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":3,"category":{"name":"Yedek Parça","url":"string","tags":"string","products":[null],"id":3,"createdAt":"2023-06-16T16:14:28.8576066","createdBy":null,"updatedAt":null,"updatedBy":null}}]}]}
+2023-06-18 00:08:11.589 [INF] -------------Request-End------------
+2023-06-18 00:09:26.216 [INF] Application is starting...
+2023-06-18 00:09:36.314 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-18 00:09:38.457 [INF] -------------Request-Begin------------
+2023-06-18 00:09:38.458 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAll 
+QueryString:  
+Request Body: 
+2023-06-18 00:09:38.459 [INF] 
+
+2023-06-18 00:09:38.460 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"Telefon","features":"string","description":"string","isActive":true,"stock":13,"pointEarningPercentage":12.00,"maxPointAmount":15.00,"categories":[{"productId":1,"product":{"name":"Telefon","features":"string","description":"string","price":200.00,"isActive":true,"stock":13,"pointEarningPercentage":12.00,"maxPointAmount":15.00,"categories":[null],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":1,"category":null}]},{"name":"Elbise","features":"string","description":"string","isActive":true,"stock":8,"pointEarningPercentage":10.00,"maxPointAmount":13.00,"categories":[{"productId":2,"product":{"name":"Elbise","features":"string","description":"string","price":100.00,"isActive":true,"stock":8,"pointEarningPercentage":10.00,"maxPointAmount":13.00,"categories":[null],"id":2,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":2,"category":null}]},{"name":"Jant","features":"string","description":"string","isActive":true,"stock":3,"pointEarningPercentage":8.00,"maxPointAmount":11.00,"categories":[{"productId":3,"product":{"name":"Jant","features":"string","description":"string","price":120.00,"isActive":true,"stock":3,"pointEarningPercentage":8.00,"maxPointAmount":11.00,"categories":[null],"id":3,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":3,"category":null}]}]}
+2023-06-18 00:09:38.461 [INF] -------------Request-End------------
+2023-06-18 00:10:42.622 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-18 00:10:42.783 [INF] -------------Request-Begin------------
+2023-06-18 00:10:42.784 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAllProduct 
+QueryString: ?isActive=true 
+Request Body: 
+2023-06-18 00:10:42.785 [INF] 
+
+2023-06-18 00:10:42.787 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAllProduct 
+QueryString: ?isActive=true 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"Telefon","features":"string","description":"string","isActive":true,"stock":13,"pointEarningPercentage":12.00,"maxPointAmount":15.00,"categories":[{"productId":1,"product":{"name":"Telefon","features":"string","description":"string","price":200.00,"isActive":true,"stock":13,"pointEarningPercentage":12.00,"maxPointAmount":15.00,"categories":[null],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":1,"category":{"name":"Elektronik","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-16T16:14:15.9597076","createdBy":null,"updatedAt":null,"updatedBy":null}}]},{"name":"Elbise","features":"string","description":"string","isActive":true,"stock":8,"pointEarningPercentage":10.00,"maxPointAmount":13.00,"categories":[{"productId":2,"product":{"name":"Elbise","features":"string","description":"string","price":100.00,"isActive":true,"stock":8,"pointEarningPercentage":10.00,"maxPointAmount":13.00,"categories":[null],"id":2,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":2,"category":{"name":"Giyim","url":"string","tags":"string","products":[null],"id":2,"createdAt":"2023-06-16T16:14:23.0206084","createdBy":null,"updatedAt":null,"updatedBy":null}}]},{"name":"Jant","features":"string","description":"string","isActive":true,"stock":3,"pointEarningPercentage":8.00,"maxPointAmount":11.00,"categories":[{"productId":3,"product":{"name":"Jant","features":"string","description":"string","price":120.00,"isActive":true,"stock":3,"pointEarningPercentage":8.00,"maxPointAmount":11.00,"categories":[null],"id":3,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":3,"category":{"name":"Yedek Parça","url":"string","tags":"string","products":[null],"id":3,"createdAt":"2023-06-16T16:14:28.8576066","createdBy":null,"updatedAt":null,"updatedBy":null}}]}]}
+2023-06-18 00:10:42.788 [INF] -------------Request-End------------
+2023-06-18 00:11:04.636 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-18 00:11:04.656 [INF] -------------Request-Begin------------
+2023-06-18 00:11:04.657 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAllProduct 
+QueryString:  
+Request Body: 
+2023-06-18 00:11:04.658 [INF] 
+
+2023-06-18 00:11:04.662 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAllProduct 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-06-18 00:11:04.662 [INF] -------------Request-End------------
+2023-06-18 16:57:16.524 [INF] Application is starting...
+2023-06-18 20:21:42.205 [INF] Application is starting...
+2023-06-18 22:57:33.756 [INF] Application is starting...
+2023-06-18 23:16:09.694 [INF] Application is starting...
+2023-06-18 23:16:34.389 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-18 23:16:34.585 [INF] -------------Request-Begin------------
+2023-06-18 23:16:34.587 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "lastName": "string",
+  "email": "string",
+  "password": "string"
+}
+2023-06-18 23:16:34.590 [INF] 
+
+2023-06-18 23:16:34.591 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"'Email'  geçerli bir e-posta adresi değil."}
+2023-06-18 23:16:34.592 [INF] -------------Request-End------------
+2023-06-18 23:16:58.341 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-18 23:16:58.955 [INF] -------------Request-Begin------------
+2023-06-18 23:16:58.956 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+Request Body: {
+  "name": "Doğukan",
+  "lastName": "string",
+  "email": "string@gmail.com",
+  "password": "string"
+}
+2023-06-18 23:16:58.958 [INF] 
+
+2023-06-18 23:16:58.960 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-18 23:16:58.961 [INF] -------------Request-End------------
+2023-06-18 23:17:34.074 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-18 23:18:02.601 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-18 23:19:24.650 [INF] Application is starting...
+2023-06-18 23:20:29.105 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-18 23:20:29.201 [INF] -------------Request-Begin------------
+2023-06-18 23:20:29.202 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-18 23:20:29.203 [INF] 
+
+2023-06-18 23:20:29.203 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-06-18 23:20:29.204 [INF] -------------Request-End------------
+2023-06-18 23:20:43.575 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-18 23:20:43.578 [INF] -------------Request-Begin------------
+2023-06-18 23:20:43.578 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=1 
+Request Body: {
+  "name": "string",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-18 23:20:43.579 [INF] 
+
+2023-06-18 23:20:43.580 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=1 
+StatusCode: 401 
+Response Body: 
+2023-06-18 23:20:43.580 [INF] -------------Request-End------------
+2023-06-18 23:20:58.315 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-18 23:20:58.746 [INF] -------------Request-Begin------------
+2023-06-18 23:20:58.748 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string@string.com",
+  "password": "string"
+}
+2023-06-18 23:20:58.749 [INF] 
+
+2023-06-18 23:20:58.749 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Email or password is incorrect.","response":null}
+2023-06-18 23:20:58.750 [INF] -------------Request-End------------
+2023-06-18 23:21:15.837 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-18 23:21:16.045 [INF] -------------Request-Begin------------
+2023-06-18 23:21:16.046 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string@gmail.com",
+  "password": "string"
+}
+2023-06-18 23:21:16.047 [INF] 
+
+2023-06-18 23:21:16.049 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-18T23:26:16.0411465+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiRmlyc3ROYW1lIjoiRG_En3VrYW4iLCJMYXN0TmFtZSI6InN0cmluZyIsIlJvbGUiOiJNZW1iZXIiLCJTdGF0dXMiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiTWVtYmVyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkRvxJ91a2FuIHN0cmluZyIsImV4cCI6MTY4NzExOTk3NSwiaXNzIjoiU2ltQXBpIiwiYXVkIjoiU2ltQXBpIn0.vHQgQSGOfrtonT1ep_SwtFO12Sh5FFDAz7L6mV3uTLw","email":"string@gmail.com"}}
+2023-06-18 23:21:16.050 [INF] -------------Request-End------------
+2023-06-18 23:21:31.849 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-18 23:21:31.908 [INF] -------------Request-Begin------------
+2023-06-18 23:21:31.909 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=1 
+Request Body: {
+  "name": "string",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-18 23:21:31.909 [INF] 
+
+2023-06-18 23:21:31.910 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString: ?id=1 
+StatusCode: 403 
+Response Body: 
+2023-06-18 23:21:31.910 [INF] -------------Request-End------------
+2023-06-18 23:21:40.621 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-18 23:21:40.623 [INF] -------------Request-Begin------------
+2023-06-18 23:21:40.623 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-18 23:21:40.624 [INF] 
+
+2023-06-18 23:21:40.624 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-06-18 23:21:40.625 [INF] -------------Request-End------------
+2023-06-18 23:21:51.300 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-18 23:21:51.417 [INF] -------------Request-Begin------------
+2023-06-18 23:21:51.418 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-18 23:21:51.418 [INF] 
+
+2023-06-18 23:21:51.419 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-06-18 23:21:51.419 [INF] -------------Request-End------------
+2023-06-18 23:22:04.327 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-18 23:22:04.328 [INF] -------------Request-Begin------------
+2023-06-18 23:22:04.329 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Admin/Register 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "lastName": "string",
+  "email": "string",
+  "password": "string"
+}
+2023-06-18 23:22:04.329 [INF] 
+
+2023-06-18 23:22:04.330 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Admin/Register 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-06-18 23:22:04.330 [INF] -------------Request-End------------

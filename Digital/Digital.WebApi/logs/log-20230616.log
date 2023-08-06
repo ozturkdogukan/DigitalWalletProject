@@ -1,0 +1,2849 @@
+2023-06-16 01:23:39.674 [INF] Application is starting...
+2023-06-16 01:23:59.432 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 01:24:55.330 [INF] Application is starting...
+2023-06-16 01:25:04.619 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 01:25:04.756 [INF] -------------Request-Begin------------
+2023-06-16 01:25:04.757 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    0
+  ]
+}
+2023-06-16 01:25:04.758 [INF] 
+
+2023-06-16 01:25:04.759 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-51c6a3305fa8e34736b31cbc5bd8f9e9-3029d65cbb71075a-00"}
+2023-06-16 01:25:04.759 [INF] -------------Request-End------------
+2023-06-16 01:25:28.043 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 01:25:37.727 [INF] -------------Request-Begin------------
+2023-06-16 01:25:37.728 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    0
+  ]
+}
+2023-06-16 01:25:37.729 [INF] 
+
+2023-06-16 01:25:37.730 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-4f0c9ade02cb92481ab09ae22733f416-9f08eb0f0e67a407-00"}
+2023-06-16 01:25:37.731 [INF] -------------Request-End------------
+2023-06-16 01:25:47.116 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 01:25:50.798 [INF] -------------Request-Begin------------
+2023-06-16 01:25:50.799 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "lastName": "string",
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 01:25:50.800 [INF] 
+
+2023-06-16 01:25:50.802 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 01:25:50.803 [INF] -------------Request-End------------
+2023-06-16 01:26:01.315 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 01:26:02.299 [INF] -------------Request-Begin------------
+2023-06-16 01:26:02.300 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 01:26:02.302 [INF] 
+
+2023-06-16 01:26:02.302 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T01:31:02.2956306+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2ODY4MjYyLCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.pYXF6vhxUoWewkD8l_iY6o0Wl7_YwqD9hY8TrLw8Ce8","email":"string"}}
+2023-06-16 01:26:02.303 [INF] -------------Request-End------------
+2023-06-16 01:26:22.414 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:05:45.859 [INF] Application is starting...
+2023-06-16 14:18:04.155 [INF] Application is starting...
+2023-06-16 14:18:20.266 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:18:25.333 [INF] -------------Request-Begin------------
+2023-06-16 14:18:25.333 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    0
+  ]
+}
+2023-06-16 14:18:25.334 [INF] 
+
+2023-06-16 14:18:25.335 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-aaa14b572d1c439fba291365ec1062f7-bb2414890b9ec2bd-00"}
+2023-06-16 14:18:25.335 [INF] -------------Request-End------------
+2023-06-16 14:18:38.726 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:18:40.283 [INF] -------------Request-Begin------------
+2023-06-16 14:18:40.283 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 14:18:40.284 [INF] 
+
+2023-06-16 14:18:40.285 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T14:23:40.2772394+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTE0NjIwLCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.tagLzh3I7wOeihc8EQWjTOXZeW_z0_kzgnTClyhiB_M","email":"string"}}
+2023-06-16 14:18:40.286 [INF] -------------Request-End------------
+2023-06-16 14:18:55.410 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:20:06.365 [INF] Application is starting...
+2023-06-16 14:20:40.390 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:20:43.225 [INF] -------------Request-Begin------------
+2023-06-16 14:20:43.226 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+Request Body: {
+  "name": "Mustafa",
+  "lastName": "Öztürk",
+  "email": "mustafa@hotmail.com",
+  "password": "string"
+}
+2023-06-16 14:20:43.228 [INF] 
+
+2023-06-16 14:20:43.229 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 14:20:43.230 [INF] -------------Request-End------------
+2023-06-16 14:21:03.073 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:21:04.736 [INF] -------------Request-Begin------------
+2023-06-16 14:21:04.737 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "mustafa@hotmail.com",
+  "password": "string"
+}
+2023-06-16 14:21:04.738 [INF] 
+
+2023-06-16 14:21:04.739 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T14:26:04.7322461+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoiTXVzdGFmYSIsIkxhc3ROYW1lIjoiw5Z6dMO8cmsiLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJNdXN0YWZhIMOWenTDvHJrIiwiZXhwIjoxNjg2OTE0NzY0LCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.lzxAldZA8rNH1GdQ_Km5Vaej8AzSmVdV96wSIgzPkJI","email":"mustafa@hotmail.com"}}
+2023-06-16 14:21:04.740 [INF] -------------Request-End------------
+2023-06-16 14:21:56.276 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:21:57.310 [INF] -------------Request-Begin------------
+2023-06-16 14:21:57.311 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Elektronik",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-16 14:21:57.311 [INF] 
+
+2023-06-16 14:21:57.312 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 14:21:57.313 [INF] -------------Request-End------------
+2023-06-16 14:22:05.199 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:22:06.446 [INF] -------------Request-Begin------------
+2023-06-16 14:22:06.446 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Giyim",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-16 14:22:06.447 [INF] 
+
+2023-06-16 14:22:06.448 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 14:22:06.449 [INF] -------------Request-End------------
+2023-06-16 14:22:17.386 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:22:18.137 [INF] -------------Request-Begin------------
+2023-06-16 14:22:18.138 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Yedek Parça",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-16 14:22:18.139 [INF] 
+
+2023-06-16 14:22:18.139 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 14:22:18.140 [INF] -------------Request-End------------
+2023-06-16 14:24:00.229 [INF] Application is starting...
+2023-06-16 14:24:24.779 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:24:27.453 [INF] -------------Request-Begin------------
+2023-06-16 14:24:27.454 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+Request Body: {
+  "name": "Mustafa",
+  "lastName": "Öztürk",
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 14:24:27.457 [INF] 
+
+2023-06-16 14:24:27.457 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 14:24:27.458 [INF] -------------Request-End------------
+2023-06-16 14:24:42.053 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:24:43.164 [INF] -------------Request-Begin------------
+2023-06-16 14:24:43.165 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 14:24:43.166 [INF] 
+
+2023-06-16 14:24:43.168 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T14:29:43.1601482+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoiTXVzdGFmYSIsIkxhc3ROYW1lIjoiw5Z6dMO8cmsiLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJNdXN0YWZhIMOWenTDvHJrIiwiZXhwIjoxNjg2OTE0OTgzLCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.fc37GXG9GjTD1ccMPerpJY-PlcaPOHYYNlrr4ENYEyQ","email":"string"}}
+2023-06-16 14:24:43.169 [INF] -------------Request-End------------
+2023-06-16 14:25:07.376 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:25:08.348 [INF] -------------Request-Begin------------
+2023-06-16 14:25:08.348 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Elektronik",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-16 14:25:08.349 [INF] 
+
+2023-06-16 14:25:08.350 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 14:25:08.350 [INF] -------------Request-End------------
+2023-06-16 14:25:14.348 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:25:14.901 [INF] -------------Request-Begin------------
+2023-06-16 14:25:14.901 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Giyim",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-16 14:25:14.902 [INF] 
+
+2023-06-16 14:25:14.903 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 14:25:14.903 [INF] -------------Request-End------------
+2023-06-16 14:25:22.516 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:25:23.197 [INF] -------------Request-Begin------------
+2023-06-16 14:25:23.197 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Yedek Parça",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-16 14:25:23.199 [INF] 
+
+2023-06-16 14:25:23.200 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 14:25:23.201 [INF] -------------Request-End------------
+2023-06-16 14:26:55.626 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:26:56.719 [INF] -------------Request-Begin------------
+2023-06-16 14:26:56.719 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "Telefon",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 15,
+  "pointEarningPercentage": 12,
+  "price": 200,
+  "maxPointAmount": 15,
+  "categoryIds": [
+    1
+  ]
+}
+2023-06-16 14:26:56.720 [INF] 
+
+2023-06-16 14:26:56.722 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 14:26:56.723 [INF] -------------Request-End------------
+2023-06-16 14:28:04.933 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:28:05.727 [INF] -------------Request-Begin------------
+2023-06-16 14:28:05.728 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "Elbise",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 10,
+  "pointEarningPercentage": 10,
+  "price": 100,
+  "maxPointAmount": 13,
+  "categoryIds": [
+    2
+  ]
+}
+2023-06-16 14:28:05.729 [INF] 
+
+2023-06-16 14:28:05.729 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 14:28:05.730 [INF] -------------Request-End------------
+2023-06-16 14:28:58.120 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:28:59.350 [INF] -------------Request-Begin------------
+2023-06-16 14:28:59.350 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "Jant",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 5,
+  "pointEarningPercentage": 8,
+  "price": 120,
+  "maxPointAmount": 11,
+  "categoryIds": [
+    3
+  ]
+}
+2023-06-16 14:28:59.351 [INF] 
+
+2023-06-16 14:28:59.352 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 14:28:59.352 [INF] -------------Request-End------------
+2023-06-16 14:29:51.528 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:29:59.754 [INF] -------------Request-Begin------------
+2023-06-16 14:29:59.755 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 14:29:59.755 [INF] 
+
+2023-06-16 14:29:59.756 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-ff22d2867950821a7bac478d2fc4e878-8f8071bc6f1cf4a4-00"}
+2023-06-16 14:29:59.756 [INF] -------------Request-End------------
+2023-06-16 14:30:17.095 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:30:18.201 [INF] -------------Request-Begin------------
+2023-06-16 14:30:18.202 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 14:30:18.203 [INF] 
+
+2023-06-16 14:30:18.203 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T14:35:18.201558+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoiTXVzdGFmYSIsIkxhc3ROYW1lIjoiw5Z6dMO8cmsiLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJNdXN0YWZhIMOWenTDvHJrIiwiZXhwIjoxNjg2OTE1MzE4LCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.3PnaWA3ONGt0xNY4qH11j_qEfiTn1eQFZLoFuhzM7W0","email":"string"}}
+2023-06-16 14:30:18.204 [INF] -------------Request-End------------
+2023-06-16 14:30:32.518 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 14:39:32.135 [INF] -------------Request-Begin------------
+2023-06-16 14:39:32.136 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 14:39:32.137 [INF] 
+
+2023-06-16 14:39:32.137 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Ok"}
+2023-06-16 14:39:32.138 [INF] -------------Request-End------------
+2023-06-16 15:06:01.311 [INF] Application is starting...
+2023-06-16 15:06:26.653 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:06:33.469 [INF] -------------Request-Begin------------
+2023-06-16 15:06:33.470 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 15:06:33.472 [INF] 
+
+2023-06-16 15:06:33.473 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-4b0ababf1340ffa8c96a82876a447f5a-258e8f9bb6283328-00"}
+2023-06-16 15:06:33.474 [INF] -------------Request-End------------
+2023-06-16 15:06:43.992 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:06:45.512 [INF] -------------Request-Begin------------
+2023-06-16 15:06:45.513 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 15:06:45.514 [INF] 
+
+2023-06-16 15:06:45.515 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T15:11:45.5076303+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoiTXVzdGFmYSIsIkxhc3ROYW1lIjoiw5Z6dMO8cmsiLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJNdXN0YWZhIMOWenTDvHJrIiwiZXhwIjoxNjg2OTE3NTA1LCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.DXH_O1MphLtQwvFosokJO3clM8NLGIKj0IBaNm3G6Ss","email":"string"}}
+2023-06-16 15:06:45.516 [INF] -------------Request-End------------
+2023-06-16 15:07:02.743 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:07:03.823 [INF] -------------Request-Begin------------
+2023-06-16 15:07:03.824 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 15:07:03.825 [INF] 
+
+2023-06-16 15:07:03.827 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Coupon Wrong"}
+2023-06-16 15:07:03.828 [INF] -------------Request-End------------
+2023-06-16 15:07:10.382 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:09:08.001 [INF] Application is starting...
+2023-06-16 15:11:12.792 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:11:12.918 [INF] -------------Request-Begin------------
+2023-06-16 15:11:12.919 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    0
+  ]
+}
+2023-06-16 15:11:12.922 [INF] 
+
+2023-06-16 15:11:12.922 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-c0f2df347f90e35c375cb60407fcc22d-f5f231c0b8f465f6-00"}
+2023-06-16 15:11:12.923 [INF] -------------Request-End------------
+2023-06-16 15:11:20.290 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:11:23.640 [INF] -------------Request-Begin------------
+2023-06-16 15:11:23.641 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 15:11:23.642 [INF] 
+
+2023-06-16 15:11:23.643 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T15:16:23.6354442+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoiTXVzdGFmYSIsIkxhc3ROYW1lIjoiw5Z6dMO8cmsiLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJNdXN0YWZhIMOWenTDvHJrIiwiZXhwIjoxNjg2OTE3NzgzLCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.Hmd3KLUD8sc3V80F3MXYS1jH0h_mrYhbC78_I7xqZQg","email":"string"}}
+2023-06-16 15:11:23.643 [INF] -------------Request-End------------
+2023-06-16 15:11:43.281 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:12:29.363 [INF] Application is starting...
+2023-06-16 15:12:44.981 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:12:45.108 [INF] -------------Request-Begin------------
+2023-06-16 15:12:45.109 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 15:12:45.110 [INF] 
+
+2023-06-16 15:12:45.111 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-694b0f262b323ac4cb709abae0db7992-2f9d115e0d664043-00"}
+2023-06-16 15:12:45.111 [INF] -------------Request-End------------
+2023-06-16 15:12:55.002 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:13:41.010 [INF] Application is starting...
+2023-06-16 15:13:55.545 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:13:57.683 [INF] -------------Request-Begin------------
+2023-06-16 15:13:57.684 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 15:13:57.685 [INF] 
+
+2023-06-16 15:13:57.686 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T15:18:57.6739623+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoiTXVzdGFmYSIsIkxhc3ROYW1lIjoiw5Z6dMO8cmsiLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJNdXN0YWZhIMOWenTDvHJrIiwiZXhwIjoxNjg2OTE3OTM3LCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.wwG0k-dw8NgnJAvlwYXslrFMAPgQX7Fyddf5dNEHB9Y","email":"string"}}
+2023-06-16 15:13:57.687 [INF] -------------Request-End------------
+2023-06-16 15:14:21.507 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:18:32.556 [INF] Application is starting...
+2023-06-16 15:24:38.904 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:24:39.034 [INF] -------------Request-Begin------------
+2023-06-16 15:24:39.035 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 15:24:39.037 [INF] 
+
+2023-06-16 15:24:39.038 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-692e850f4e6f5b75103ec24f4ce17a3d-9285632932609901-00"}
+2023-06-16 15:24:39.039 [INF] -------------Request-End------------
+2023-06-16 15:24:45.921 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:24:48.739 [INF] -------------Request-Begin------------
+2023-06-16 15:24:48.740 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 15:24:48.741 [INF] 
+
+2023-06-16 15:24:48.742 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T15:29:48.7341238+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoiTXVzdGFmYSIsIkxhc3ROYW1lIjoiw5Z6dMO8cmsiLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJNdXN0YWZhIMOWenTDvHJrIiwiZXhwIjoxNjg2OTE4NTg4LCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.W8TLg7Yfey1badu0zbN0rglvwGRCAPGryL-2dPeR26Y","email":"string"}}
+2023-06-16 15:24:48.743 [INF] -------------Request-End------------
+2023-06-16 15:25:08.736 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:27:50.484 [INF] Application is starting...
+2023-06-16 15:28:10.966 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:28:15.335 [INF] -------------Request-Begin------------
+2023-06-16 15:28:15.336 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 15:28:15.338 [INF] 
+
+2023-06-16 15:28:15.340 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T15:33:15.3262586+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoiTXVzdGFmYSIsIkxhc3ROYW1lIjoiw5Z6dMO8cmsiLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJNdXN0YWZhIMOWenTDvHJrIiwiZXhwIjoxNjg2OTE4Nzk1LCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.STt75ZKTXd5QG57SPpc4tQVg-QPrRlQbPLDUwgexZdg","email":"string"}}
+2023-06-16 15:28:15.341 [INF] -------------Request-End------------
+2023-06-16 15:28:38.682 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:29:38.659 [INF] -------------Request-Begin------------
+2023-06-16 15:29:38.660 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 15:29:38.660 [INF] 
+
+2023-06-16 15:29:38.663 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Internal Server Error"}
+2023-06-16 15:29:38.664 [INF] -------------Request-End------------
+2023-06-16 15:29:45.201 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:29:57.298 [INF] -------------Request-Begin------------
+2023-06-16 15:29:57.299 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 15:29:57.300 [INF] 
+
+2023-06-16 15:29:57.301 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Internal Server Error"}
+2023-06-16 15:29:57.301 [INF] -------------Request-End------------
+2023-06-16 15:31:34.667 [INF] Application is starting...
+2023-06-16 15:32:11.993 [INF] Application is starting...
+2023-06-16 15:35:40.912 [INF] Application is starting...
+2023-06-16 15:35:58.591 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:36:05.155 [INF] -------------Request-Begin------------
+2023-06-16 15:36:05.156 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "lastName": "string",
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 15:36:05.157 [INF] 
+
+2023-06-16 15:36:05.157 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 15:36:05.158 [INF] -------------Request-End------------
+2023-06-16 15:36:12.778 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:36:12.963 [INF] -------------Request-Begin------------
+2023-06-16 15:36:12.964 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 15:36:12.968 [INF] 
+
+2023-06-16 15:36:12.968 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T15:41:12.9584302+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTE5MjcyLCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ._CF9KXEsED7y-CWObhSAagYXkEAV3G-ANr_YQHHKCqM","email":"string"}}
+2023-06-16 15:36:12.969 [INF] -------------Request-End------------
+2023-06-16 15:36:31.436 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:36:32.666 [INF] -------------Request-Begin------------
+2023-06-16 15:36:32.667 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Elektronik",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-16 15:36:32.668 [INF] 
+
+2023-06-16 15:36:32.670 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 15:36:32.671 [INF] -------------Request-End------------
+2023-06-16 15:36:39.753 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:36:40.923 [INF] -------------Request-Begin------------
+2023-06-16 15:36:40.924 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Giyim",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-16 15:36:40.925 [INF] 
+
+2023-06-16 15:36:40.925 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 15:36:40.926 [INF] -------------Request-End------------
+2023-06-16 15:36:48.010 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:36:49.037 [INF] -------------Request-Begin------------
+2023-06-16 15:36:49.037 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Yedek Parça",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-16 15:36:49.039 [INF] 
+
+2023-06-16 15:36:49.041 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 15:36:49.041 [INF] -------------Request-End------------
+2023-06-16 15:41:11.915 [INF] Application is starting...
+2023-06-16 15:41:15.302 [INF] Application is starting...
+2023-06-16 15:41:38.276 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:41:39.917 [INF] -------------Request-Begin------------
+2023-06-16 15:41:39.918 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAll 
+QueryString:  
+Request Body: 
+2023-06-16 15:41:39.919 [INF] 
+
+2023-06-16 15:41:39.919 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-06-16 15:41:39.920 [INF] -------------Request-End------------
+2023-06-16 15:42:12.249 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:42:13.871 [INF] -------------Request-Begin------------
+2023-06-16 15:42:13.872 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "Telefon",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 10,
+  "pointEarningPercentage": 13,
+  "price": 300,
+  "maxPointAmount": 16,
+  "categoryIds": [
+    1
+  ]
+}
+2023-06-16 15:42:13.873 [INF] 
+
+2023-06-16 15:42:13.875 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 15:42:13.876 [INF] -------------Request-End------------
+2023-06-16 15:42:50.300 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:42:51.543 [INF] -------------Request-Begin------------
+2023-06-16 15:42:51.544 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "Elbise",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 15,
+  "pointEarningPercentage": 18,
+  "price": 200,
+  "maxPointAmount": 12,
+  "categoryIds": [
+    2
+  ]
+}
+2023-06-16 15:42:51.545 [INF] 
+
+2023-06-16 15:42:51.547 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 15:42:51.547 [INF] -------------Request-End------------
+2023-06-16 15:43:22.197 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:43:23.373 [INF] -------------Request-Begin------------
+2023-06-16 15:43:23.373 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "Jant",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 20,
+  "pointEarningPercentage": 14,
+  "price": 150,
+  "maxPointAmount": 15,
+  "categoryIds": [
+    3
+  ]
+}
+2023-06-16 15:43:23.374 [INF] 
+
+2023-06-16 15:43:23.376 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 15:43:23.377 [INF] -------------Request-End------------
+2023-06-16 15:43:58.685 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:43:58.821 [INF] -------------Request-Begin------------
+2023-06-16 15:43:58.822 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 15:43:58.825 [INF] 
+
+2023-06-16 15:43:58.826 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T15:48:58.8184782+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTE5NzM4LCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.fNHaQVLeOyGB7xP6l-VrvwTu5OzjUh1FjYA6TXJqllE","email":"string"}}
+2023-06-16 15:43:58.826 [INF] -------------Request-End------------
+2023-06-16 15:44:24.114 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:44:29.739 [INF] -------------Request-Begin------------
+2023-06-16 15:44:29.740 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 15:44:29.741 [INF] 
+
+2023-06-16 15:44:29.743 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Ok"}
+2023-06-16 15:44:29.744 [INF] -------------Request-End------------
+2023-06-16 15:46:10.343 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 15:46:12.630 [INF] -------------Request-Begin------------
+2023-06-16 15:46:12.630 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 15:46:12.631 [INF] 
+
+2023-06-16 15:46:12.633 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Ok"}
+2023-06-16 15:46:12.634 [INF] -------------Request-End------------
+2023-06-16 16:00:40.061 [INF] Application is starting...
+2023-06-16 16:01:44.842 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:01:44.966 [INF] -------------Request-Begin------------
+2023-06-16 16:01:44.967 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 16:01:44.970 [INF] 
+
+2023-06-16 16:01:44.971 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-bde050d804884239ba423bc86562cc96-4cd36223106d7eba-00"}
+2023-06-16 16:01:44.971 [INF] -------------Request-End------------
+2023-06-16 16:01:55.021 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:01:55.560 [INF] -------------Request-Begin------------
+2023-06-16 16:01:55.561 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 16:01:55.562 [INF] 
+
+2023-06-16 16:01:55.562 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T16:06:55.555491+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTIwODE1LCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.DZ-2xlyo2FuD9epcNsm7_ffRgsjAkoYcqB5IuH2ocxA","email":"string"}}
+2023-06-16 16:01:55.563 [INF] -------------Request-End------------
+2023-06-16 16:02:17.663 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:02:31.113 [INF] -------------Request-Begin------------
+2023-06-16 16:02:31.114 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 16:02:31.115 [INF] 
+
+2023-06-16 16:02:31.117 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Ok"}
+2023-06-16 16:02:31.118 [INF] -------------Request-End------------
+2023-06-16 16:02:49.324 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:03:20.107 [INF] Application is starting...
+2023-06-16 16:03:33.313 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:03:33.963 [INF] -------------Request-Begin------------
+2023-06-16 16:03:33.964 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 16:03:33.965 [INF] 
+
+2023-06-16 16:03:33.966 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T16:08:33.953858+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTIwOTEzLCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.vhea4QLDVvVdY6EQ-L-ph6Tz3uO8isWMhYIe1N9LwjY","email":"string"}}
+2023-06-16 16:03:33.966 [INF] -------------Request-End------------
+2023-06-16 16:04:31.604 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:07:33.654 [INF] Application is starting...
+2023-06-16 16:08:27.820 [INF] Application is starting...
+2023-06-16 16:08:46.719 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:08:46.843 [INF] -------------Request-Begin------------
+2023-06-16 16:08:46.844 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 16:08:46.847 [INF] 
+
+2023-06-16 16:08:46.847 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-0b8798f801954fc2bdb7526cd86daeba-d9d91f0b23872d8b-00"}
+2023-06-16 16:08:46.848 [INF] -------------Request-End------------
+2023-06-16 16:08:53.091 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:08:53.630 [INF] -------------Request-Begin------------
+2023-06-16 16:08:53.630 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 16:08:53.631 [INF] 
+
+2023-06-16 16:08:53.632 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T16:13:53.6248297+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTIxMjMzLCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.F6JNlSj9bLZp0--ybmfLeEtNMPQJtb1tCQB4BD62Ygk","email":"string"}}
+2023-06-16 16:08:53.633 [INF] -------------Request-End------------
+2023-06-16 16:09:09.245 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:09:25.925 [INF] -------------Request-Begin------------
+2023-06-16 16:09:25.926 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 16:09:25.927 [INF] 
+
+2023-06-16 16:09:25.927 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Ok"}
+2023-06-16 16:09:25.928 [INF] -------------Request-End------------
+2023-06-16 16:11:27.052 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:12:57.681 [INF] -------------Request-Begin------------
+2023-06-16 16:12:57.682 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 16:12:57.683 [INF] 
+
+2023-06-16 16:12:57.685 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Ok"}
+2023-06-16 16:12:57.686 [INF] -------------Request-End------------
+2023-06-16 16:14:52.188 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:14:52.192 [INF] -------------Request-Begin------------
+2023-06-16 16:14:52.193 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 16:14:52.194 [INF] 
+
+2023-06-16 16:14:52.195 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-e60a0c3f839090d843323bb74a724cfb-debc0281eb19e863-00"}
+2023-06-16 16:14:52.196 [INF] -------------Request-End------------
+2023-06-16 16:14:59.861 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:14:59.873 [INF] -------------Request-Begin------------
+2023-06-16 16:14:59.874 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 16:14:59.875 [INF] 
+
+2023-06-16 16:14:59.875 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T16:19:59.8727723+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTIxNTk5LCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.fpPwdOTP97OQTAaDK6lys8BBedF4VplF64OIYjAiwo4","email":"string"}}
+2023-06-16 16:14:59.876 [INF] -------------Request-End------------
+2023-06-16 16:15:33.996 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:15:38.219 [INF] -------------Request-Begin------------
+2023-06-16 16:15:38.219 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 16:15:38.220 [INF] 
+
+2023-06-16 16:15:38.221 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Ok"}
+2023-06-16 16:15:38.221 [INF] -------------Request-End------------
+2023-06-16 16:16:31.374 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:16:36.416 [INF] -------------Request-Begin------------
+2023-06-16 16:16:36.417 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 16:16:36.418 [INF] 
+
+2023-06-16 16:16:36.420 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Ok"}
+2023-06-16 16:16:36.420 [INF] -------------Request-End------------
+2023-06-16 16:37:18.272 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:37:18.281 [INF] -------------Request-Begin------------
+2023-06-16 16:37:18.282 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 16:37:18.283 [INF] 
+
+2023-06-16 16:37:18.285 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-2adafa72d103828d0ffe48c29af6fd61-de1d62ed3d350ec0-00"}
+2023-06-16 16:37:18.286 [INF] -------------Request-End------------
+2023-06-16 16:37:25.630 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:37:25.639 [INF] -------------Request-Begin------------
+2023-06-16 16:37:25.640 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 16:37:25.641 [INF] 
+
+2023-06-16 16:37:25.641 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T16:42:25.6395857+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTIyOTQ1LCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.uH9nAQjRzzniBTg1gjqlWXyhynLSgXXLj23ZJdiWcvQ","email":"string"}}
+2023-06-16 16:37:25.642 [INF] -------------Request-End------------
+2023-06-16 16:37:46.517 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:37:50.727 [INF] -------------Request-Begin------------
+2023-06-16 16:37:50.728 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 16:37:50.729 [INF] 
+
+2023-06-16 16:37:50.729 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Ok"}
+2023-06-16 16:37:50.730 [INF] -------------Request-End------------
+2023-06-16 16:39:10.161 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:39:13.563 [INF] -------------Request-Begin------------
+2023-06-16 16:39:13.563 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 16:39:13.564 [INF] 
+
+2023-06-16 16:39:13.566 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Ok"}
+2023-06-16 16:39:13.567 [INF] -------------Request-End------------
+2023-06-16 16:50:41.133 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:50:41.135 [INF] -------------Request-Begin------------
+2023-06-16 16:50:41.135 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 16:50:41.136 [INF] 
+
+2023-06-16 16:50:41.136 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-c45a5f09411ec4e8ca64223d898bc1f3-a18fcf8a332a6b49-00"}
+2023-06-16 16:50:41.137 [INF] -------------Request-End------------
+2023-06-16 16:51:01.855 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:51:01.865 [INF] -------------Request-Begin------------
+2023-06-16 16:51:01.865 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 16:51:01.867 [INF] 
+
+2023-06-16 16:51:01.868 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T16:56:01.8649105+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTIzNzYxLCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.zbI3QNxiLVFqPuEZgjMOUtOJOOViIaUuTMu2KAuRtxo","email":"string"}}
+2023-06-16 16:51:01.869 [INF] -------------Request-End------------
+2023-06-16 16:52:58.999 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:52:59.007 [INF] -------------Request-Begin------------
+2023-06-16 16:52:59.007 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 16:52:59.008 [INF] 
+
+2023-06-16 16:52:59.009 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-8b6f78b6d89f08ccefe4d2027db230d1-cd5ea48e920c1803-00"}
+2023-06-16 16:52:59.010 [INF] -------------Request-End------------
+2023-06-16 16:53:18.653 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:54:05.145 [INF] -------------Request-Begin------------
+2023-06-16 16:54:05.146 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 16:54:05.147 [INF] 
+
+2023-06-16 16:54:05.149 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Ok"}
+2023-06-16 16:54:05.150 [INF] -------------Request-End------------
+2023-06-16 16:54:23.018 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:54:24.051 [INF] -------------Request-Begin------------
+2023-06-16 16:54:24.051 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 16:54:24.052 [INF] 
+
+2023-06-16 16:54:24.054 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"No Stock"}
+2023-06-16 16:54:24.055 [INF] -------------Request-End------------
+2023-06-16 16:55:02.060 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:55:05.511 [INF] -------------Request-Begin------------
+2023-06-16 16:55:05.512 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 16:55:05.513 [INF] 
+
+2023-06-16 16:55:05.513 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Ok"}
+2023-06-16 16:55:05.514 [INF] -------------Request-End------------
+2023-06-16 16:55:38.169 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 16:55:42.433 [INF] -------------Request-Begin------------
+2023-06-16 16:55:42.434 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 16:55:42.435 [INF] 
+
+2023-06-16 16:55:42.435 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Ok"}
+2023-06-16 16:55:42.436 [INF] -------------Request-End------------
+2023-06-16 17:00:37.379 [INF] Application is starting...
+2023-06-16 17:01:44.713 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 17:01:46.844 [INF] -------------Request-Begin------------
+2023-06-16 17:01:46.845 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+Request Body: {
+  "code": "string",
+  "percentAmount": 10,
+  "expirationDate": "2023-06-16T19:01:33.760Z",
+  "isActive": true
+}
+2023-06-16 17:01:46.848 [INF] 
+
+2023-06-16 17:01:46.848 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 17:01:46.849 [INF] -------------Request-End------------
+2023-06-16 17:01:54.472 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 17:01:54.969 [INF] -------------Request-Begin------------
+2023-06-16 17:01:54.969 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 17:01:54.971 [INF] 
+
+2023-06-16 17:01:54.971 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T17:06:54.9658363+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTI0NDE0LCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.8zzs0XBKb212aPU-shnZ3zGF_Jq-rr8c3Eu5J44JjK8","email":"string"}}
+2023-06-16 17:01:54.972 [INF] -------------Request-End------------
+2023-06-16 17:02:17.095 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 17:03:30.528 [INF] -------------Request-Begin------------
+2023-06-16 17:03:30.529 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 17:03:30.530 [INF] 
+
+2023-06-16 17:03:30.533 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Ok"}
+2023-06-16 17:03:30.533 [INF] -------------Request-End------------
+2023-06-16 17:07:07.760 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 17:07:07.767 [INF] -------------Request-Begin------------
+2023-06-16 17:07:07.768 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 17:07:07.769 [INF] 
+
+2023-06-16 17:07:07.771 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-e86ae76705f3c687ac9f1daf3add2a5c-04e864dbf50b6e5a-00"}
+2023-06-16 17:07:07.772 [INF] -------------Request-End------------
+2023-06-16 17:07:26.836 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 17:07:26.839 [INF] -------------Request-Begin------------
+2023-06-16 17:07:26.839 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 17:07:26.840 [INF] 
+
+2023-06-16 17:07:26.841 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-8ae510e4bb365b6cccf7faac2484c56e-5e2b0d8c7cc156f4-00"}
+2023-06-16 17:07:26.841 [INF] -------------Request-End------------
+2023-06-16 17:07:31.081 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 17:07:31.091 [INF] -------------Request-Begin------------
+2023-06-16 17:07:31.092 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 17:07:31.093 [INF] 
+
+2023-06-16 17:07:31.093 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T17:12:31.0915729+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTI0NzUxLCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.O5nhsszGEF_TFibiW2ZHQgvDHzLgmT0NlmXZOw_f2As","email":"string"}}
+2023-06-16 17:07:31.094 [INF] -------------Request-End------------
+2023-06-16 17:07:52.522 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 17:07:59.691 [INF] -------------Request-Begin------------
+2023-06-16 17:07:59.691 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 17:07:59.693 [INF] 
+
+2023-06-16 17:07:59.693 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Ok"}
+2023-06-16 17:07:59.694 [INF] -------------Request-End------------
+2023-06-16 17:09:05.358 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 17:09:05.372 [INF] -------------Request-Begin------------
+2023-06-16 17:09:05.373 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    0
+  ]
+}
+2023-06-16 17:09:05.376 [INF] 
+
+2023-06-16 17:09:05.376 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-d38a64536adaaf0f1dfd203d049b2434-075511d63b541497-00"}
+2023-06-16 17:09:05.377 [INF] -------------Request-End------------
+2023-06-16 17:09:19.157 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 17:19:11.979 [INF] Application is starting...
+2023-06-16 17:25:00.092 [INF] Application is starting...
+2023-06-16 17:25:12.336 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 17:25:13.038 [INF] -------------Request-Begin------------
+2023-06-16 17:25:13.039 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 17:25:13.040 [INF] 
+
+2023-06-16 17:25:13.041 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T17:30:13.0268612+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTI1ODEyLCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.j-sfiNyeTM23Y7FFOjmqMYhiQ7voGFm99c08xmOaMFY","email":"string"}}
+2023-06-16 17:25:13.042 [INF] -------------Request-End------------
+2023-06-16 17:25:48.518 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 17:25:54.098 [INF] -------------Request-Begin------------
+2023-06-16 17:25:54.098 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 17:25:54.100 [INF] 
+
+2023-06-16 17:25:54.102 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Ok"}
+2023-06-16 17:25:54.103 [INF] -------------Request-End------------
+2023-06-16 17:26:12.425 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 17:26:16.358 [INF] -------------Request-Begin------------
+2023-06-16 17:26:16.359 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 17:26:16.360 [INF] 
+
+2023-06-16 17:26:16.363 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Ok"}
+2023-06-16 17:26:16.363 [INF] -------------Request-End------------
+2023-06-16 17:56:11.142 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 17:56:11.153 [INF] -------------Request-Begin------------
+2023-06-16 17:56:11.153 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 17:56:11.155 [INF] 
+
+2023-06-16 17:56:11.156 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-8805bf72e355ad52a42cc8521552304e-e1b358b423e375ee-00"}
+2023-06-16 17:56:11.157 [INF] -------------Request-End------------
+2023-06-16 17:56:18.275 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 17:56:18.284 [INF] -------------Request-Begin------------
+2023-06-16 17:56:18.284 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 17:56:18.285 [INF] 
+
+2023-06-16 17:56:18.286 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T18:01:18.284219+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTI3Njc4LCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.VzreUe5CP-uLBHK2RE0I2lw7fLgyVOzarIVnzl58O2k","email":"string"}}
+2023-06-16 17:56:18.287 [INF] -------------Request-End------------
+2023-06-16 17:56:38.256 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 17:57:15.780 [INF] Application is starting...
+2023-06-16 17:57:35.131 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 17:57:35.791 [INF] -------------Request-Begin------------
+2023-06-16 17:57:35.791 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 17:57:35.794 [INF] 
+
+2023-06-16 17:57:35.795 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T18:02:35.7809903+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTI3NzU1LCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.aWz126zmtw9L2_ihDCYkyuEgquXHebhWF0EqxSqHx3Y","email":"string"}}
+2023-06-16 17:57:35.796 [INF] -------------Request-End------------
+2023-06-16 17:57:47.266 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 18:00:24.545 [INF] Application is starting...
+2023-06-16 18:01:03.232 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 18:01:04.005 [INF] -------------Request-Begin------------
+2023-06-16 18:01:04.006 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 18:01:04.009 [INF] 
+
+2023-06-16 18:01:04.010 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T18:06:03.9944556+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTI3OTYzLCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.edryEq3qlVLIYyOziPTBmLHeF4Vdpo0JBjT_tZqjRBc","email":"string"}}
+2023-06-16 18:01:04.011 [INF] -------------Request-End------------
+2023-06-16 18:04:04.448 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 18:39:46.702 [INF] Application is starting...
+2023-06-16 18:40:58.650 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 18:41:01.405 [INF] -------------Request-Begin------------
+2023-06-16 18:41:01.406 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "lastName": "string",
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 18:41:01.409 [INF] 
+
+2023-06-16 18:41:01.410 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 18:41:01.410 [INF] -------------Request-End------------
+2023-06-16 18:41:09.196 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 18:41:09.380 [INF] -------------Request-Begin------------
+2023-06-16 18:41:09.380 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 18:41:09.382 [INF] 
+
+2023-06-16 18:41:09.382 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T18:46:09.375733+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTMwMzY5LCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.0C9a94zKpPnEmBEwWjQd975pbpiO__kTRNlwBdigsck","email":"string"}}
+2023-06-16 18:41:09.383 [INF] -------------Request-End------------
+2023-06-16 18:41:24.426 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 18:41:29.326 [INF] -------------Request-Begin------------
+2023-06-16 18:41:29.327 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Elektronik",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-16 18:41:29.328 [INF] 
+
+2023-06-16 18:41:29.330 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 18:41:29.331 [INF] -------------Request-End------------
+2023-06-16 18:41:40.637 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 18:41:40.644 [INF] -------------Request-Begin------------
+2023-06-16 18:41:40.644 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Giyim",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-16 18:41:40.645 [INF] 
+
+2023-06-16 18:41:40.646 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 18:41:40.647 [INF] -------------Request-End------------
+2023-06-16 18:41:47.432 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 18:41:47.440 [INF] -------------Request-Begin------------
+2023-06-16 18:41:47.440 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Yedek Parça",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-16 18:41:47.441 [INF] 
+
+2023-06-16 18:41:47.442 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 18:41:47.442 [INF] -------------Request-End------------
+2023-06-16 19:13:36.415 [INF] Application is starting...
+2023-06-16 19:13:49.454 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 19:13:50.161 [INF] -------------Request-Begin------------
+2023-06-16 19:13:50.162 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+Request Body: {
+  "name": "string",
+  "lastName": "string",
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 19:13:50.163 [INF] 
+
+2023-06-16 19:13:50.164 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Register 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 19:13:50.164 [INF] -------------Request-End------------
+2023-06-16 19:14:03.234 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 19:14:03.412 [INF] -------------Request-Begin------------
+2023-06-16 19:14:03.413 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 19:14:03.415 [INF] 
+
+2023-06-16 19:14:03.417 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T19:19:03.4082933+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTMyMzQzLCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.37it8Hvw1eS_5L1hptidrP9E8b4LdW2RWNcGA3R6yBw","email":"string"}}
+2023-06-16 19:14:03.418 [INF] -------------Request-End------------
+2023-06-16 19:14:15.953 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 19:14:15.988 [INF] -------------Request-Begin------------
+2023-06-16 19:14:15.988 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Elektronik",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-16 19:14:15.989 [INF] 
+
+2023-06-16 19:14:15.990 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 19:14:15.991 [INF] -------------Request-End------------
+2023-06-16 19:14:23.019 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 19:14:23.027 [INF] -------------Request-Begin------------
+2023-06-16 19:14:23.027 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Giyim",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-16 19:14:23.028 [INF] 
+
+2023-06-16 19:14:23.029 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 19:14:23.030 [INF] -------------Request-End------------
+2023-06-16 19:14:28.855 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 19:14:28.863 [INF] -------------Request-Begin------------
+2023-06-16 19:14:28.863 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+Request Body: {
+  "name": "Yedek Parça",
+  "url": "string",
+  "tags": "string"
+}
+2023-06-16 19:14:28.864 [INF] 
+
+2023-06-16 19:14:28.865 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 19:14:28.865 [INF] -------------Request-End------------
+2023-06-16 19:15:17.038 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 19:15:17.135 [INF] -------------Request-Begin------------
+2023-06-16 19:15:17.135 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "Telefon",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 15,
+  "pointEarningPercentage": 12,
+  "price": 200,
+  "maxPointAmount": 15,
+  "categoryIds": [
+    1
+  ]
+}
+2023-06-16 19:15:17.136 [INF] 
+
+2023-06-16 19:15:17.138 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 19:15:17.139 [INF] -------------Request-End------------
+2023-06-16 19:15:42.677 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 19:15:42.694 [INF] -------------Request-Begin------------
+2023-06-16 19:15:42.695 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "Elbise",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 10,
+  "pointEarningPercentage": 10,
+  "price": 100,
+  "maxPointAmount": 13,
+  "categoryIds": [
+    2
+  ]
+}
+2023-06-16 19:15:42.696 [INF] 
+
+2023-06-16 19:15:42.698 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 19:15:42.698 [INF] -------------Request-End------------
+2023-06-16 19:16:12.173 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 19:16:12.190 [INF] -------------Request-Begin------------
+2023-06-16 19:16:12.191 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+Request Body: {
+  "name": "Jant",
+  "features": "string",
+  "description": "string",
+  "isActive": true,
+  "stock": 5,
+  "pointEarningPercentage": 8,
+  "price": 120,
+  "maxPointAmount": 11,
+  "categoryIds": [
+    3
+  ]
+}
+2023-06-16 19:16:12.192 [INF] 
+
+2023-06-16 19:16:12.194 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Product 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 19:16:12.194 [INF] -------------Request-End------------
+2023-06-16 19:16:58.790 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 19:16:58.797 [INF] -------------Request-Begin------------
+2023-06-16 19:16:58.797 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 19:16:58.798 [INF] 
+
+2023-06-16 19:16:58.800 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T19:21:58.7969151+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTMyNTE4LCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.w82BVg1QyYTeSzDxp8oZKjGT_l75Rp82106hSF1pY7g","email":"string"}}
+2023-06-16 19:16:58.801 [INF] -------------Request-End------------
+2023-06-16 19:17:39.179 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 19:17:43.094 [INF] -------------Request-Begin------------
+2023-06-16 19:17:43.095 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 19:17:43.096 [INF] 
+
+2023-06-16 19:17:43.099 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 19:17:43.099 [INF] -------------Request-End------------
+2023-06-16 19:17:55.458 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 19:17:55.476 [INF] -------------Request-Begin------------
+2023-06-16 19:17:55.476 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAll 
+QueryString:  
+Request Body: 
+2023-06-16 19:17:55.477 [INF] 
+
+2023-06-16 19:17:55.479 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{}]}
+2023-06-16 19:17:55.480 [INF] -------------Request-End------------
+2023-06-16 19:18:00.844 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 19:18:00.848 [INF] -------------Request-Begin------------
+2023-06-16 19:18:00.849 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAll 
+QueryString:  
+Request Body: 
+2023-06-16 19:18:00.849 [INF] 
+
+2023-06-16 19:18:00.850 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{}]}
+2023-06-16 19:18:00.851 [INF] -------------Request-End------------
+2023-06-16 19:19:49.281 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 19:19:50.528 [INF] -------------Request-Begin------------
+2023-06-16 19:19:50.529 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+Request Body: {
+  "code": "string",
+  "percentAmount": 25,
+  "expirationDate": "2023-06-16T20:19:26.596Z",
+  "isActive": true
+}
+2023-06-16 19:19:50.530 [INF] 
+
+2023-06-16 19:19:50.532 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Coupon 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 19:19:50.533 [INF] -------------Request-End------------
+2023-06-16 19:20:24.491 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 19:20:29.560 [INF] -------------Request-Begin------------
+2023-06-16 19:20:29.560 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 19:20:29.561 [INF] 
+
+2023-06-16 19:20:29.563 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 19:20:29.564 [INF] -------------Request-End------------
+2023-06-16 19:24:48.891 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 19:24:48.901 [INF] -------------Request-Begin------------
+2023-06-16 19:24:48.902 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+Request Body: {
+  "cardNumber": "string",
+  "cardDate": "string",
+  "cardName": "string",
+  "cvv": "string",
+  "couponCode": "string",
+  "productIds": [
+    1,2,3
+  ]
+}
+2023-06-16 19:24:48.903 [INF] 
+
+2023-06-16 19:24:48.904 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-899a27776585f1d797f3b34946a1d68e-a8d158ca42d3e7d9-00"}
+2023-06-16 19:24:48.905 [INF] -------------Request-End------------
+2023-06-16 19:25:01.730 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 19:25:01.731 [INF] -------------Request-Begin------------
+2023-06-16 19:25:01.733 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAll 
+QueryString:  
+Request Body: 
+2023-06-16 19:25:01.733 [INF] 
+
+2023-06-16 19:25:01.734 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAll 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-8344095a8cc50532fda74aaa571f491c-65d74fed0578791c-00"}
+2023-06-16 19:25:01.735 [INF] -------------Request-End------------
+2023-06-16 19:25:13.612 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 19:25:13.613 [INF] -------------Request-Begin------------
+2023-06-16 19:25:13.614 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAll 
+QueryString:  
+Request Body: 
+2023-06-16 19:25:13.616 [INF] 
+
+2023-06-16 19:25:13.618 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAll 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-1ac38108cf020445e5639ba11606a141-d7e257d37d2ef0fa-00"}
+2023-06-16 19:25:13.618 [INF] -------------Request-End------------
+2023-06-16 23:35:02.895 [INF] Application is starting...
+2023-06-16 23:35:15.318 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 23:35:15.419 [INF] -------------Request-Begin------------
+2023-06-16 23:35:15.420 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAll 
+QueryString:  
+Request Body: 
+2023-06-16 23:35:15.421 [INF] 
+
+2023-06-16 23:35:15.422 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAll 
+QueryString:  
+StatusCode: 401 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7235#section-3.1","title":"Unauthorized","status":401,"traceId":"00-b4af45f1595c23908fcd4f8f9f424994-f8ce55d17156ec69-00"}
+2023-06-16 23:35:15.422 [INF] -------------Request-End------------
+2023-06-16 23:35:25.060 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 23:35:25.658 [INF] -------------Request-Begin------------
+2023-06-16 23:35:25.659 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 23:35:25.659 [INF] 
+
+2023-06-16 23:35:25.660 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T23:40:25.6522437+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTQ4MDI1LCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.SnkfIwq2qEXqTuP-s0QntiJiGMz3-IOy8ft3EStDqlo","email":"string"}}
+2023-06-16 23:35:25.661 [INF] -------------Request-End------------
+2023-06-16 23:35:39.358 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 23:35:40.715 [INF] -------------Request-Begin------------
+2023-06-16 23:35:40.716 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAll 
+QueryString:  
+Request Body: 
+2023-06-16 23:35:40.716 [INF] 
+
+2023-06-16 23:35:40.719 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userID":1,"orderNumber":"492866390","cartAmount":420.00,"couponAmount":0.00,"couponCode":"","pointAmount":0.00},{"userID":1,"orderNumber":"663131555","cartAmount":280.40,"couponAmount":105.00,"couponCode":"string","pointAmount":34.60}]}
+2023-06-16 23:35:40.719 [INF] -------------Request-End------------
+2023-06-16 23:36:38.406 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 23:36:47.853 [INF] Application is starting...
+2023-06-16 23:36:54.790 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 23:41:11.650 [INF] Application is starting...
+2023-06-16 23:41:19.162 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 23:41:21.625 [INF] -------------Request-Begin------------
+2023-06-16 23:41:21.625 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-16 23:41:21.626 [INF] 
+
+2023-06-16 23:41:21.627 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"Elektronik","url":"string","tags":"string","products":[{"productId":1,"product":{"name":"Telefon","features":"string","description":"string","price":200.00,"isActive":true,"stock":13,"pointEarningPercentage":12.00,"maxPointAmount":15.00,"categories":[null],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":1,"category":{"name":"Elektronik","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-16T16:14:15.9597076","createdBy":null,"updatedAt":null,"updatedBy":null}}]},{"name":"Giyim","url":"string","tags":"string","products":[{"productId":2,"product":{"name":"Elbise","features":"string","description":"string","price":100.00,"isActive":true,"stock":8,"pointEarningPercentage":10.00,"maxPointAmount":13.00,"categories":[null],"id":2,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":2,"category":{"name":"Giyim","url":"string","tags":"string","products":[null],"id":2,"createdAt":"2023-06-16T16:14:23.0206084","createdBy":null,"updatedAt":null,"updatedBy":null}}]},{"name":"Yedek Parça","url":"string","tags":"string","products":[{"productId":3,"product":{"name":"Jant","features":"string","description":"string","price":120.00,"isActive":true,"stock":3,"pointEarningPercentage":8.00,"maxPointAmount":11.00,"categories":[null],"id":3,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":3,"category":{"name":"Yedek Parça","url":"string","tags":"string","products":[null],"id":3,"createdAt":"2023-06-16T16:14:28.8576066","createdBy":null,"updatedAt":null,"updatedBy":null}}]}]}
+2023-06-16 23:41:21.628 [INF] -------------Request-End------------
+2023-06-16 23:41:33.969 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 23:42:21.078 [INF] -------------Request-Begin------------
+2023-06-16 23:42:21.081 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+Request Body: 
+2023-06-16 23:42:21.084 [INF] 
+
+2023-06-16 23:42:21.085 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"Elektronik","url":"string","tags":"string","products":[{"productId":1,"product":{"name":"Telefon","features":"string","description":"string","price":200.00,"isActive":true,"stock":13,"pointEarningPercentage":12.00,"maxPointAmount":15.00,"categories":[null],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":1,"category":{"name":"Elektronik","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-16T16:14:15.9597076","createdBy":null,"updatedAt":null,"updatedBy":null}}]},{"name":"Giyim","url":"string","tags":"string","products":[{"productId":2,"product":{"name":"Elbise","features":"string","description":"string","price":100.00,"isActive":true,"stock":8,"pointEarningPercentage":10.00,"maxPointAmount":13.00,"categories":[null],"id":2,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":2,"category":{"name":"Giyim","url":"string","tags":"string","products":[null],"id":2,"createdAt":"2023-06-16T16:14:23.0206084","createdBy":null,"updatedAt":null,"updatedBy":null}}]},{"name":"Yedek Parça","url":"string","tags":"string","products":[{"productId":3,"product":{"name":"Jant","features":"string","description":"string","price":120.00,"isActive":true,"stock":3,"pointEarningPercentage":8.00,"maxPointAmount":11.00,"categories":[null],"id":3,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":3,"category":{"name":"Yedek Parça","url":"string","tags":"string","products":[null],"id":3,"createdAt":"2023-06-16T16:14:28.8576066","createdBy":null,"updatedAt":null,"updatedBy":null}}]}]}
+2023-06-16 23:42:21.086 [INF] -------------Request-End------------
+2023-06-16 23:42:57.294 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 23:42:57.397 [INF] -------------Request-Begin------------
+2023-06-16 23:42:57.397 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=1 
+Request Body: 
+2023-06-16 23:42:57.398 [INF] 
+
+2023-06-16 23:42:57.399 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"name":"Elektronik","url":"string","tags":"string","products":[{"productId":1,"product":null,"categoryId":1,"category":{"name":"Elektronik","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-16T16:14:15.9597076","createdBy":null,"updatedAt":null,"updatedBy":null}}]}
+2023-06-16 23:42:57.400 [INF] -------------Request-End------------
+2023-06-16 23:43:47.436 [INF] Application is starting...
+2023-06-16 23:43:57.929 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 23:43:58.633 [INF] -------------Request-Begin------------
+2023-06-16 23:43:58.634 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=1 
+Request Body: 
+2023-06-16 23:43:58.635 [INF] 
+
+2023-06-16 23:43:58.635 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Category/GetById 
+QueryString: ?id=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"name":"Elektronik","url":"string","tags":"string","products":[{"productId":1,"product":{"name":"Telefon","features":"string","description":"string","price":200.00,"isActive":true,"stock":13,"pointEarningPercentage":12.00,"maxPointAmount":15.00,"categories":[null],"id":1,"createdAt":null,"createdBy":null,"updatedAt":null,"updatedBy":null},"categoryId":1,"category":{"name":"Elektronik","url":"string","tags":"string","products":[null],"id":1,"createdAt":"2023-06-16T16:14:15.9597076","createdBy":null,"updatedAt":null,"updatedBy":null}}]}
+2023-06-16 23:43:58.636 [INF] -------------Request-End------------
+2023-06-16 23:49:09.572 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 23:49:09.776 [INF] -------------Request-Begin------------
+2023-06-16 23:49:09.777 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-06-16 23:49:09.778 [INF] 
+
+2023-06-16 23:49:09.780 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Token/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireTime":"2023-06-16T23:54:09.7735638+03:00","accessToken":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRmlyc3ROYW1lIjoic3RyaW5nIiwiTGFzdE5hbWUiOiJzdHJpbmciLCJSb2xlIjoiTWVtYmVyIiwiU3RhdHVzIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1lbWJlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHJpbmcgc3RyaW5nIiwiZXhwIjoxNjg2OTQ4ODQ5LCJpc3MiOiJTaW1BcGkiLCJhdWQiOiJTaW1BcGkifQ.CJND4KJXnK9MzjoHPvARRhDj4cyiAtdETrhv8GilU4s","email":"string"}}
+2023-06-16 23:49:09.781 [INF] -------------Request-End------------
+2023-06-16 23:49:28.738 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 23:49:30.082 [INF] -------------Request-Begin------------
+2023-06-16 23:49:30.083 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAllMyOrder 
+QueryString:  
+Request Body: 
+2023-06-16 23:49:30.084 [INF] 
+
+2023-06-16 23:49:30.086 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAllMyOrder 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userID":1,"orderNumber":"492866390","cartAmount":420.00,"couponAmount":0.00,"couponCode":"","pointAmount":0.00},{"userID":1,"orderNumber":"663131555","cartAmount":280.40,"couponAmount":105.00,"couponCode":"string","pointAmount":34.60}]}
+2023-06-16 23:49:30.087 [INF] -------------Request-End------------
+2023-06-16 23:49:47.854 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 23:51:23.108 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 23:51:33.428 [INF] -------------Request-Begin------------
+2023-06-16 23:51:33.429 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAllMyOrder 
+QueryString:  
+Request Body: 
+2023-06-16 23:51:33.429 [INF] 
+
+2023-06-16 23:51:33.430 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/Order/GetAllMyOrder 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userID":1,"orderNumber":"492866390","cartAmount":420.00,"couponAmount":0.00,"couponCode":"","pointAmount":0.00},{"userID":1,"orderNumber":"663131555","cartAmount":280.40,"couponAmount":105.00,"couponCode":"string","pointAmount":34.60}]}
+2023-06-16 23:51:33.431 [INF] -------------Request-End------------
+2023-06-16 23:51:47.054 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 23:52:45.769 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 23:53:16.476 [INF] Application is starting...
+2023-06-16 23:54:55.161 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 23:54:58.298 [INF] -------------Request-Begin------------
+2023-06-16 23:54:58.299 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/OrderDetail/GetAll 
+QueryString: ?orderNumber=663131555 
+Request Body: 
+2023-06-16 23:54:58.301 [INF] 
+
+2023-06-16 23:54:58.302 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/OrderDetail/GetAll 
+QueryString: ?orderNumber=663131555 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"orderNumber":"663131555","productName":"Telefon","productId":1,"price":200.00},{"orderNumber":"663131555","productName":"Elbise","productId":2,"price":100.00},{"orderNumber":"663131555","productName":"Jant","productId":3,"price":120.00}]}
+2023-06-16 23:54:58.303 [INF] -------------Request-End------------
+2023-06-16 23:55:11.494 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 23:55:12.669 [INF] -------------Request-Begin------------
+2023-06-16 23:55:12.669 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/OrderDetail/GetAll 
+QueryString: ?orderNumber=araba 
+Request Body: 
+2023-06-16 23:55:12.670 [INF] 
+
+2023-06-16 23:55:12.671 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7104 
+Path: /api/OrderDetail/GetAll 
+QueryString: ?orderNumber=araba 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-06-16 23:55:12.672 [INF] -------------Request-End------------
